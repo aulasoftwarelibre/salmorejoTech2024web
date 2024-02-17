@@ -10,7 +10,7 @@ const Schedule: React.FC = () => {
       </div>
       <div className="row pt-5" style={{ alignItems: 'stretch' }}>
         <div
-          className={`col-1 container-fluid d-flex flex-column justify-content-between`}
+          className={`col-1 container-fluid tamaño flex-column justify-content-between`}
           style={{
             borderRadius: '10px',
             background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
@@ -24,10 +24,10 @@ const Schedule: React.FC = () => {
           </div>
         </div>
         <div
-          className={`col-5 container-fluid ${styles.fondo} d-flex`}
+          className={`col-5 container-fluid tamaño ${styles.fondo}`}
         >
           <div className="row align-items-center">
-            <div className="col-lg-7 col-md-12 py-4">
+            <div className="col-lg-7 col-md-12 col-sm-10 py-4">
               <div className="row">
                 <h3>LAS MUJERES EN LA INFORMÁTICA
                 </h3>

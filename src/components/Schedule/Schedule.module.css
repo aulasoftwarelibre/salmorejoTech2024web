@@ -30,3 +30,7 @@
     width: 100%;
     height: auto;
 }
+.tamaño {
+    font-size: calc(.7rem + (30 - 10) * ((100vw - 300px) / (1600 - 300)));
+    display: flex;
+}

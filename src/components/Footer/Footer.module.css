@@ -1,0 +1,11 @@
+.fondoblancoabajo {
+    background: url('../../sprites/fondoblancoabajo.svg') center/cover no-repeat;
+    height: 50vh;
+  }
+
+.fondo1 {
+    background: url('../../sprites/posiblefondo1.svg') center/cover no-repeat;
+}
+.entumecido{
+    color: "#fffffb1";
+}
