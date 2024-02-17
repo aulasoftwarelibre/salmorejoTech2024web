@@ -12,7 +12,7 @@ export default function Header() {
           <span style={{ fontWeight: 900, color: "#ffffff"}}>
             <i className="fa-solid fa-calendar-days fa-bounce" style={{ color: "#ffffff" }}></i>{" "}
             <i className="fa-sharp fa-regular fa-2 fa-bounce" style={{ color: "#ffffff" }}></i>
-            <i className="fa-sharp fa-regular fa-5 fa-bounce" style={{ color: "#ffffff" }}></i>{" "}
+            <i className="fa-sharp fa-regular fa-6 fa-bounce" style={{ color: "#ffffff" }}></i>{" "}
             DE ABRIL DE 2024
           </span>
         </h1>
