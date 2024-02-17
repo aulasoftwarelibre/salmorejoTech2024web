@@ -1,0 +1,15 @@
+.navback {
+    position: fixed;
+    width: 100%;
+    color:#fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    background: rgb(231,61,46);
+    background: linear-gradient(90deg, rgba(231,61,46,0.9249824929971989) 0%, rgba(199,24,92,0.9249824929971989) 100%);
+    z-index: 1000;
+  }
+
+  .boldText{
+    color: #fff;
+    font-weight: bold;
+  }

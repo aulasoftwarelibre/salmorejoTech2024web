@@ -1,0 +1,26 @@
+.scheduleTitle {
+    color: #8a153c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.scheduleItem {
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(246, 69, 26, 1) 0%, rgba(206, 41, 96, 1) 100%);
+}
+
+.scheduleTime {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.scheduleSpeaker {
+    font-size: 14px;
+    margin: 0;
+}
+
+.scheduleImage {
+    width: 100%;
+    height: auto;
+}
