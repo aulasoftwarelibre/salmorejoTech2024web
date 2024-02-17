@@ -1,30 +1,37 @@
+import { useState } from 'react';
 import styles from "./Navbar.module.css";
 import isotipoBlanco from "../../sprites/isotipo-blanco.svg"; // Adjust the path
 
 export default function Navbar() {
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${styles.navback}`}>
             <div className="container py-md-2 py-sm-1 px-4">
                 <a className="navbar-brand" style={{ color: "#fff", fontWeight: "bold" }} href="#">
                     <img src={isotipoBlanco} className="img-fluid" alt="logosalmorejo" />
                 </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className={`navbar-toggler-icon ${styles.boldIcon}`} style={{ color: "#fff", fontWeight: "bold" }}></span>
+                <button className={"navbar-toggler"} type="button" onClick={toggleMenu} aria-label="Toggle navigation">
+                    <span className={`navbar-toggler-icon ${styles.boldIcon}`}></span>
                 </button>
             </div>
-            <div className={`collapse navbar-collapse pe-4 ${styles.boldText}`} id="navbarNav">
-                <ul className={`navbar-nav pl-5 ${styles.boldText}`}>
+            <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''} pe-4 pb-4`} id="navbarNav">
+                <ul className={`navbar-nav pl-5`}>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText}`} href="#">Inicio</a>
+                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Inicio</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText}`} href="#">Contacto</a>
+                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Contacto</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText}`} href="#">Servicios</a>
+                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Servicios</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText}`} href="#">Entradas</a>
+                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Entradas</a>
                     </li>
                 </ul>
             </div>
