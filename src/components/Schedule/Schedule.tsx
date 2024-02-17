@@ -1,5 +1,5 @@
 import React from 'react';
-import StallMan from "../../sprites/stallman.png";
+import StallMan from "../../sprites/stallmanrichard.png";
 import styles from './Schedule.module.css';
 
 const Schedule: React.FC = () => {
@@ -8,9 +8,9 @@ const Schedule: React.FC = () => {
       <div className="row pt-4">
         <h1 className={styles.scheduleTitle}>HORARIO</h1>
       </div>
-      <div className="row pt-5" style={{ alignItems: 'center' }}>
+      <div className="row pt-5" style={{ alignItems: 'stretch' }}>
         <div
-          className="col-1 container-fluid"
+          className={`col-1 container-fluid d-flex flex-column justify-content-between`}
           style={{
             borderRadius: '10px',
             background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
@@ -24,36 +24,10 @@ const Schedule: React.FC = () => {
           </div>
         </div>
         <div
-          className="col-5 miDiv container-fluid"
-          style={{
-            borderRadius: '10px',
-            background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
-          }}
+          className={`col-5 container-fluid ${styles.fondo} d-flex`}
         >
-          <div className="row">
-            <div className="col-7 py-4">
-              <div className="row">
-                <h3>LAS MUJERES EN LA INFORMÁTICA
-                </h3>
-              </div>
-              <div className="row">
-                <h5>Richard Stallman</h5>
-              </div>
-            </div>
-            <div className="col-5 d-flex align-items-center">
-              <img src={StallMan} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '100%' }} />
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-5 miDiv container-fluid"
-          style={{
-            borderRadius: '10px',
-            background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
-          }}
-        >
-          <div className="row">
-            <div className="col-7 py-4">
+          <div className="row align-items-center">
+            <div className="col-lg-7 col-md-12 py-4">
               <div className="row">
                 <h3>LAS MUJERES EN LA INFORMÁTICA
                 </h3>
@@ -62,7 +36,29 @@ const Schedule: React.FC = () => {
                 <h5>Richard Stallman</h5>
               </div>
             </div>
-            <div className="col-5 d-flex align-items-center">
+            <div className="col-lg-5 col-md-12 py-lg-4">
+              <img src={StallMan} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '100%' }} />
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-5 container-fluid d-flex"
+          style={{
+            borderRadius: '10px',
+            background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
+          }}
+        >
+          <div className="row align-items-center">
+            <div className="col-lg-7 col-md-12 py-4">
+              <div className="row">
+                <h3>LAS MUJERES EN LA INFORMÁTICA
+                </h3>
+              </div>
+              <div>
+                <h5>Richard Stallman</h5>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-12 py-lg-4">
               <img src={StallMan} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '100%' }} />
             </div>
           </div>

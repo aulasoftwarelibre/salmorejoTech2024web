@@ -10,10 +10,16 @@
 }
 
 .scheduleTime {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%);
 }
+
+.fondo{
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%);
+    
+}
+
 
 .scheduleSpeaker {
     font-size: 14px;
