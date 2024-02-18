@@ -4,6 +4,10 @@
     font-weight: bold;
 }
 
+.photo{
+    border-color: yellow;
+}
+
 .scheduleItem {
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(246, 69, 26, 1) 0%, rgba(206, 41, 96, 1) 100%);
@@ -30,7 +34,39 @@
     width: 100%;
     height: auto;
 }
-.tamaño {
-    font-size: calc(.7rem + (30 - 10) * ((100vw - 300px) / (1600 - 300)));
-    display: flex;
+
+
+/* Estilo base para el texto de la tabla */
+.scheduleDiv h3, .scheduleDiv h5 {
+    font-size: 2vw; 
+  }
+  
+  
+@media (max-width: 600px) {
+    .scheduleDiv h3, .scheduleDiv h5 {
+        font-size: 3vw; 
+        padding-left: 1px;
+        /**rotate: -90deg;**/
+    }
+    h3,h5{
+        font-size: 5vw;
+        
+    }
+    .scheduleDiv {
+        padding-top: 0.5rem;
+       
+    }
 }
+  
+  @media (min-width: 600px) {
+    .scheduleDiv {
+      padding : 1vw;
+      }
+  }
+
+  @media (min-width: 1600px) {
+    .scheduleDiv h3, .scheduleDiv h5{
+      font-size: 30px;
+      }
+      
+  }

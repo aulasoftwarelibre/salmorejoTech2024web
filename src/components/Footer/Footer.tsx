@@ -28,7 +28,6 @@ export default function Header() {
             <i className="fa-brands fa-github fa-2xl" style={{ color: "#ffffff" }}></i>
             <i className="fa-brands fa-youtube fa-2xl" style={{ color: "#ffffff" }}></i>
           </div>
-          
         </div>
       </div>
       <div className="col-md-6 col-sm-12 py-5 d-flex flex-column align-items-center justify-content-center">

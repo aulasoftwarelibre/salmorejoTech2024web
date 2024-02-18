@@ -13,18 +13,18 @@ export default function Info(){
               </div>
               <div className="row pt-5" style={{ alignItems: 'center' }}>
                 <div className="col-12 col-sm-4">
-                  <div className="row"> <h1><i className="fa-solid fa-ticket fa-flip fa-2xl" style={{ color: '#fdb057' }}></i></h1></div>
+                  <div className="row"> <h1><i className={`fa-solid fa-ticket ${styles.ticket} fa-2xl`} style={{ color: '#fdb057' }}></i></h1></div>
                   <div className="row"> <h2 className="mt-4">+400 ASISTENTES</h2></div>
                 </div>
                 <div className="col-12 col-sm-4">
-                  <div className="row"><h1 className={styles.icon}><i className="fa-solid fa-microphone-lines fa-beat fa-2xl"></i></h1></div>
+                  <div className="row"><h1 className={styles.icon}><i className={`fa-solid fa-microphone-lines ${styles.microphone} fa-2xl`}></i></h1></div>
                   <div className="row">
                     <h2 className="mt-4">+10 PONENCIAS</h2>
                   </div>
                 </div>
                 <div className="col-12 col-sm-4">
                   <div className="row">
-                    <h1 className={styles.icon}><i className="fa-solid fa-utensils fa-bounce fa-2xl"></i></h1></div>
+                    <h1 className={styles.icon}><i className={`fa-solid fa-utensils ${styles.fork}  fa-2xl`}></i></h1></div>
                   <div className="row"> <h2 className="mt-4">NETWORKING</h2></div>
                 </div>
               </div>

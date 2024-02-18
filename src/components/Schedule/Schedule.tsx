@@ -10,7 +10,7 @@ const Schedule: React.FC = () => {
       </div>
       <div className="row pt-5" style={{ alignItems: 'stretch' }}>
         <div
-          className={`col-1 container-fluid tamaño flex-column justify-content-between`}
+          className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
           style={{
             borderRadius: '10px',
             background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
@@ -24,10 +24,14 @@ const Schedule: React.FC = () => {
           </div>
         </div>
         <div
-          className={`col-5 container-fluid tamaño ${styles.fondo}`}
+          className="col-5 container-fluid d-flex"
+          style={{
+            borderRadius: '10px',
+            background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
+          }}
         >
           <div className="row align-items-center">
-            <div className="col-lg-7 col-md-12 col-sm-10 py-4">
+            <div className="col-lg-7 col-md-12 py-4">
               <div className="row">
                 <h3>LAS MUJERES EN LA INFORMÁTICA
                 </h3>
@@ -59,7 +63,7 @@ const Schedule: React.FC = () => {
               </div>
             </div>
             <div className="col-lg-5 col-md-12 py-lg-4">
-              <img src={StallMan} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '100%' }} />
+              <img src={StallMan} className={`img-fluid ${styles.photo}`} alt="..." style={{ maxHeight: '100%', maxWidth: '100%' }} />
             </div>
           </div>
         </div>
