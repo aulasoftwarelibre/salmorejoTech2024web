@@ -38,7 +38,7 @@ export default function Header() {
         </div>
         <div className="row">
           <div className="col-1"><i className="fa-regular fa-envelope fa-2xl" style={{ color: "#ffffff" }}></i></div>
-          <div className="col-11">
+          <div className="col">
             <h3>aulasoftwarelibre@uco.es</h3>
           </div>
         </div>
