@@ -64,7 +64,8 @@ const Schedule: React.FC = () => {
           className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
           style={{
             borderRadius: '10px',
-            background: 'linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%)'
+            background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+            
           }}
         >
           <div className="row pb-5">
