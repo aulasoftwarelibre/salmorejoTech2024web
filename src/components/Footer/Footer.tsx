@@ -21,12 +21,14 @@ export default function Header() {
           </div>
           <div className="row">
             <div className="col-12">
-              <i className="fa-brands fa-instagram fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i>
-              <i className="fa-brands fa-facebook fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i>
-              <i className="fa-brands fa-telegram fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i>
-              <i className="fa-brands fa-twitter fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i>
-              <i className="fa-brands fa-github fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i>
-              <i className="fa-brands fa-youtube fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i>
+              <a href="https://www.facebook.com/AulaSoftwareLibre/" target="_blank"><i className="fa-brands fa-facebook fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+              <a href="https://www.instagram.com/aulasoftwarelibre/?hl=es" target="_blank"><i className="fa-brands fa-instagram fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+              <a href="https://t.me/AulaSoftwareLibreUCO" target="_blank"><i className="fa-brands fa-telegram fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+              <a href="https://twitter.com/AulaSL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i className="fa-brands fa-twitter fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+              <a href="https://github.com/aulasoftwarelibre" target="_blank"><i className="fa-brands fa-github fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+              <a href="https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w" target="_blank"><i className="fa-brands fa-youtube fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+              
+              
             </div>
           </div>
         </div>

@@ -19,19 +19,19 @@ export default function Navbar() {
                     <span className={`navbar-toggler-icon ${styles.boldIcon}`}></span>
                 </button>
             </div>
-            <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''} pe-4 pb-4`} id="navbarNav">
-                <ul className={`navbar-nav pl-5`}>
+            <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''} pe-2 pb-1`} id="navbarNav">
+                <ul className={`navbar-nav margin-auto pl-5`}>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Inicio</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#">Inicio</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Contacto</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#">Contacto</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Servicios</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#">Servicios</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} pb-2`} href="#">Entradas</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#">Entradas</a>
                     </li>
                 </ul>
             </div>
