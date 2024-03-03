@@ -42,29 +42,14 @@ export default function Info(){
                       <div className="carousel-item">
                         <img src={imagen2} className="d-block w-100" alt="..." />
                       </div>
-
-                      {/* Agrega más elementos carousel-item para más imágenes */}
                     </div>
-                    <button className="carousel-control-prev" 
-                    style={{
-                      position: 'absolute',
-                      top: '45%', /* Centra verticalmente */
-                      borderRadius: '50px',
-                      background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)',
-                    }} 
+                    <button className={` ${styles.botonInicio}`} 
                     data-bs-target="#carouselExample" data-bs-slide="prev">
-                      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span className="carousel-control-prev-icon" aria-hidden="true"
+                      ></span>
                       <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button"
-                    style={{
-                      position: 'absolute',
-                      top: '45%', /* Centra verticalmente */
-                      marginRight: '5%',
-                      borderRadius: '50px',
-                      background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)',
-                    
-                    }} 
+                    <button className={` ${styles.botonFin}`}  type="button"
                     data-bs-target="#carouselExample" data-bs-slide="next">
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="visually-hidden">Next</span>

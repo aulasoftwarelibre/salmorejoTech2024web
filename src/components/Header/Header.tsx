@@ -21,7 +21,7 @@ export default function Header() {
       </div>
       <div className="row mt-4 container-fluid">
         <div className="container-fluid">
-          <button type="button">ENTRADAS</button>
+          <button className={`${styles.botonInicio}`} type="button">ENTRADAS</button>
         </div>
       </div>
       

@@ -6,7 +6,7 @@ header{
   background: url('../../sprites/salmo.svg') center/cover no-repeat;
 }
 
-button{
+.botonInicio{
     background:#db324a;
     border-radius: 30px; /* Ajusta el valor según el nivel de redondeo que desees */
     font-family: 'Titillium Web', sans-serif;
@@ -21,12 +21,12 @@ button{
     transition:800ms ease all;
     outline:none;
   }
-  button:hover{
+  .botonInicio:hover{
     background:#ce2960;
     color:#fff;
     
   }
-  button:before,button:after{
+  .botonInicio:before,.botonInicio:after{
     content:'';
     position:absolute;
     top:0;
@@ -36,13 +36,13 @@ button{
     background: #fff;
     transition:400ms ease all;
   }
-  button:after{
+  .botonInicio:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
   }
-  button:hover:before,button:hover:after{
+  .botonInicio:hover:before,.botonInicio:hover:after{
     width:100%;
     transition:800ms ease all;
   }

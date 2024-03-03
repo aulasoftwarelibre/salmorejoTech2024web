@@ -1,37 +1,106 @@
 .fondo1 {
-    background: url('../../sprites/posiblefondo1.svg') center/cover no-repeat;
+  background: url('../../sprites/posiblefondo1.svg') center/cover no-repeat;
+}
+
+.botonInicio {
+  background: #db324a;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.botonFin {
+  background: #db324a;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.botonInicio:hover {
+  background: #ce2960;
+}
+
+.carousel-control-next {
+  background: #db324a;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: 45%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  height: 50px;
+  width: 50px;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.carousel-control-next:hover {
+  background: #ce2960;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+.ticket:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: rotate(360deg) scale(1.5);
+}
+
+.fork:hover {
+  transform: rotate3d(0, 1, 0, 180deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.microphone:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.5);
+  /* Aumenta el tamaño del SVG en un 50% */
+}
+
+.fondoblanco {
+  background: url('../../sprites/blanco.svg') center/cover no-repeat;
+  height: 50vh;
+
+}
+
+@media (max-width: 575.98px) {
+  .icon {
+    margin-top: 50px;
   }
+}
 
-
-  
-
-  .ticket:hover{
-      transition: transform 0.5s ease-in-out;
-      transform: rotate(360deg) scale(1.5);
-  }
-  
-  .fork:hover{
-    transform: rotate3d(0,1,0,180deg);
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .microphone:hover {
-    transition: transform 0.5s ease;
-    transform: scale(1.5); /* Aumenta el tamaño del SVG en un 50% */
-  }
-  
-  .fondoblanco {
-    background: url('../../sprites/blanco.svg') center/cover no-repeat;
-    height: 50vh;
-
-  }
-
-  @media (max-width: 575.98px) { 
-    .icon{
-      margin-top: 50px;
-    }
-   }
-   .icon{
-    color: #fdb057;
-   }
-  
+.icon {
+  color: #fdb057;
+}
