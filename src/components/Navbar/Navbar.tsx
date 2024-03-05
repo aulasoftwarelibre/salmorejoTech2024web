@@ -25,13 +25,13 @@ export default function Navbar() {
                         <a className={`nav-link ${styles.boldText} `} href="#">Inicio</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} `} href="#">Contacto</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#info">Info</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} `} href="#">Servicios</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#participantes">Participantes</a>
                     </li>
                     <li className="nav-item px-4">
-                        <a className={`nav-link ${styles.boldText} `} href="#">Entradas</a>
+                        <a className={`nav-link ${styles.boldText} `} href="#footer">Contacto</a>
                     </li>
                 </ul>
             </div>

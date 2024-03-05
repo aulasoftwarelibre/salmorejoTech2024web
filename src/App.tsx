@@ -4,7 +4,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Info from "./components/Info/Info";
-import Schedule from "./components/Schedule/Schedule";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
 
@@ -15,7 +14,6 @@ function App() {
       <Navbar />
       <Header />
       <Info />
-      <Schedule />
       <Team/>
       <Footer/>
     </div>
