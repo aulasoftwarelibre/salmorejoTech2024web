@@ -1,33 +1,45 @@
+/* Estilos CSS */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons {
+  margin-top: 0px;
+}
 
 .card {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    margin-left: 10px;
-    background: linear-gradient(90deg, rgba(246, 69, 26, 1) 0%, rgba(206, 41, 96, 1) 100%);
-    border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    background-color: red;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-
-  .schedule {
-    color: #8a153c;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 30px;
+  position: relative;
+  width: 300px; /* Tamaño fijo para las tarjetas */
+  height: 450px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background: linear-gradient(90deg, rgba(246, 69, 26, 1) 0%, rgba(206, 41, 96, 1) 100%);
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: red;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-  
+
+.schedule {
+  color: #8a153c;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .fireFlame {
+  display: none;
   position: absolute;
   width: 250px;
   height: 400px;
   background: url('https://media.tenor.com/yRyduKZNn1sAAAAi/fire-magic.gif');
   background-size: contain;
   right: 100px;
-  bottom: 10px;
-  animation: fireAnimation 3s linear infinite; 
+  bottom: 140px;
+  animation: fireAnimation 3s linear infinite;
 }
 
 @keyframes fireAnimation {
@@ -35,14 +47,28 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(100%); /* Move the flame to the right */
+    transform: translateX(100%);
   }
 }
 
-  
-  .content {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-  }
+.content {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  text-align: center; /* Centrar el contenido */
+}
+
+/* Ajustar tamaño de la imagen */
+.content img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; /* Ajustar la imagen dentro del contenedor sin distorsionarla */
+}
+
+.description{
+  height: 135px;
+}
+
+.avatar{
+  height: 230px !important;
+}

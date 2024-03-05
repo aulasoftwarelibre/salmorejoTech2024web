@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Info />
       <Schedule />
-      <Team />
+      <Team/>
       <Footer/>
     </div>
     </>
