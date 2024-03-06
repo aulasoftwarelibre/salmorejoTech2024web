@@ -60,6 +60,7 @@
 
 /* Ajustar tamaño de la imagen */
 .content img {
+  margin-bottom: 10px;
   width: 100%;
   height: 200px; 
   object-fit: cover; /* Ajustar la imagen dentro del contenedor sin distorsionarla */
@@ -67,6 +68,9 @@
 
 .description{
   height: 135px;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .avatar{

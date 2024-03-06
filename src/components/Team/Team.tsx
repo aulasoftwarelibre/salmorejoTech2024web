@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Team.module.css';
 import img2 from '../../sprites/equipo/ASL_Silvia - Silvia Roldán.jpeg';
-import img3 from '../../sprites/equipo/jesus.jpeg';
+import img3 from '../../sprites/equipo/jesus.jpg';
 import img4 from '../../sprites/equipo/david.jpeg';
 import img5 from '../../sprites/equipo/dario.jpeg';
 import img6 from '../../sprites/equipo/pino.jpeg'
