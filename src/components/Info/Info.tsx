@@ -51,43 +51,43 @@ export default function Info(){
                   <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                     <div className={`carousel-inner ${styles.middle}`}>
                       <div className="carousel-item active">
-                        <img src={imagen0} className="d-block w-100" alt="..." />
+                        <img src={imagen0} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen1} className="d-block w-100" alt="..." />
+                        <img src={imagen1} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen2} className="d-block w-100" alt="..." />
+                        <img src={imagen2} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen3} className="d-block w-100" alt="..." />
+                        <img src={imagen3} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen4} className="d-block w-100" alt="..." />
+                        <img src={imagen4} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen5} className="d-block w-100" alt="..." />
+                        <img src={imagen5} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen6} className="d-block w-100" alt="..." />
+                        <img src={imagen6} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen7} className="d-block w-100" alt="..." />
+                        <img src={imagen7} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen8} className="d-block w-100" alt="..." />
+                        <img src={imagen8} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen9} className="d-block w-100" alt="..." />
+                        <img src={imagen9} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen10} className="d-block w-100" alt="..." />
+                        <img src={imagen10} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen11} className="d-block w-100" alt="..." />
+                        <img src={imagen11} className="d-block w-100" alt="imagen" />
                       </div>
                       <div className="carousel-item">
-                        <img src={imagen12} className="d-block w-100" alt="..." />
+                        <img src={imagen12} className="d-block w-100" alt="imagen" />
                       </div>
                     </div>
                     <button className={` ${styles.botonInicio}`} 
