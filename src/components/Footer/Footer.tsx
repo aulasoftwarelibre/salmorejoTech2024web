@@ -44,7 +44,7 @@ export default function Header() {
             </div>
             <div className="col">
               <h3>
-                <a style={{ textDecoration: "none", color: "#ffffff" }} href="mailto:aulasoftwarelibre@uco.es">aulasoftwarelibre@uco.es</a>
+                <a style={{ textDecoration: "none", color: "#ffffff" }}>aulasoftwarelibre@uco.es</a>
               </h3>
             </div>
           </div>

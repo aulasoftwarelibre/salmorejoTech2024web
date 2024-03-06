@@ -42,10 +42,10 @@ export default function Info(){
                 </div>
               </div>
               <div className="row pt-5">
-                <div className="container-fluid pt-5 col-md-5">
+                <div className="container-fluid pt-5 col-md-6 justify-content-center" style={{margin: "auto"}}>
                   <h4>Otro año está por aquí el evento más cordobés y tech de la provincia 🍅💻. Un día donde disfrutaremos del conocimiento de nuestr@s estupend@s ponentes que poco a poco iremos anunciando y el no menos importante networking, con los productos más característicos de nuestra queridísima Córdoba.</h4>
                   <h4>Y por si no hubiera quedado claro nuestro amor por Córdoba, la fecha también coincide con una de las festividades más señaladas de la ciudad: Las Cruces de Mayo. Además, os vamos a dejar un secreto por aquí 🤫(se pueden visitar los Patios en esa fecha sin tanta afluencia de gente y manteniendo el mismo encanto).</h4>
-                  <h4>Todo esto no hubiera sido posible sin la incondicional ayuda de todos nuestros patrocinadores y a todos los <a href="#participantes" style={{color: 'white'}}>compañeros</a> del Aula de Software Libre</h4>
+                  <h4>Todo esto no hubiera sido posible sin la incondicional ayuda de todos nuestros patrocinadores y a todos los <a href="https://uco.es/aulasoftwarelibre" style={{color: 'white'}}>compañeros</a> del Aula de Software Libre</h4>
                 </div>
                 <div className="container pt-5 col-md-5">
                   <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
