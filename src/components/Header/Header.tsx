@@ -1,5 +1,7 @@
+import { motion } from 'framer-motion';
 import logoSalmorejo from "../../sprites/logosalmorejo.svg";
 import styles from "./Header.module.css";
+import calendar from "../../sprites/featherIcons/calendar.svg";
 
 export default function Header() {
   return (
@@ -10,10 +12,32 @@ export default function Header() {
       <div className="container-fluid pt-4">
         <h1>
           <span style={{ fontWeight: 900, color: "#ffffff"}}>
-            <i className="fa-solid fa-calendar-days fa-bounce" style={{ color: "#ffffff" }}></i>{" "}
-            <i className="fa-sharp fa-regular fa-2 fa-bounce" style={{ color: "#ffffff" }}></i>
-            <i className="fa-sharp fa-regular fa-6 fa-bounce" style={{ color: "#ffffff" }}></i>{" "}
-            DE ABRIL DE 2024
+            <motion.img 
+              src={calendar} 
+              alt="Networking" 
+              style={{ width: "1em", marginBottom: "9px" }}
+              animate={{
+                y: [0, -10, 0],
+              }}
+              transition={{
+                duration: 0.5,
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
+            />
+             <motion.span 
+              style={{ display: "inline-block" }}
+              animate={{
+                y: [0, -10, 0], 
+              }}
+              transition={{
+                duration: 0.5,
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
+            >
+              26
+            </motion.span> DE ABRIL DE 2024
           </span>
         </h1>
         <h1>Vuelve el evento tecnológico que ha revolucionado la gastronomía</h1>
@@ -24,7 +48,6 @@ export default function Header() {
           <button className={`${styles.botonInicio}`} type="button">ENTRADAS</button>
         </div>
       </div>
-      
     </header>
   );
 }

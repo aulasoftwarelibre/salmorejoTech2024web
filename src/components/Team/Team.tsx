@@ -29,7 +29,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img3} alt="Avatar" className={` img-fluid`} style={{ height: '230px' }} />
+            <img src={img3} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Jesus Escribano Serena</b></h5>
             <p className={`${styles.description}`}>Este año coordino un poco todo esto pero nada de esto sería posible sin esta gente que sale a mi alrededor 🤝🍅 . CAAAASI Ingeniero Informático y en mis ratos libres trabajo con datos en una startup. De Los Blázquez desde xiquitito</p>
             <p className={`${styles.icons}`}>
@@ -50,7 +50,7 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img2} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Silvia Roldán Flores</b></h5>
-            <p className={`${styles.description}`}>Estudiante de 4° de Ingeniería Informática en la mención de Software Product Developer en Audiense</p>
+            <p style={{height: '134px'}}>Estudiante de 4° de Ingeniería Informática en la mención de Software Product Developer en Audiense</p>
             <p className={`${styles.icons}`}>
               <a href="https://twitter.com/silviarf292" target="_blank" style={{ padding: "2%" }}>
                 <img src={twitter} alt="Twitter" style={{ width: "2em", height: "2em" }} />
@@ -69,7 +69,7 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img5} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Darío Martínez Kostyuk</b></h5>
-            <p className={`${styles.description}`}>Deseando aprender y disfrutar mucho de esta experiencia </p>
+            <p style={{ height: '152px' }}>Deseando aprender y disfrutar mucho de esta experiencia </p>
             <p className={`${styles.icons}`} style={{ height: '23px' }}>
 
             </p>
@@ -80,7 +80,7 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img4} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>David Martínez Molina</b></h5>
-            <p className={`${styles.description}`} style={{ height: '174px' }}>Estudiante de ingeniería informática de la UCO</p>
+            <p style={{ height: '192px' }}>Estudiante de ingeniería informática de la UCO</p>
             <p className={`${styles.icons}`}>
 
             </p>
@@ -305,7 +305,7 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img16} alt="Avatar" className={`img-fluid`} style={{ height: '230px' }} />
             <h5><b>Gonzalo Márquez de Torres</b></h5>
-            <p className={`${styles.description}`}>Estudiante de Ingeniería Informática especializado en Software</p>
+            <p style={{ height: '136px' }}>Estudiante de Ingeniería Informática especializado en Software</p>
             <p className={`${styles.icons}`}>
 
           
@@ -348,7 +348,7 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img18} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Alberto Fernández Ramos </b></h5>
-            <p className={`${styles.description}`} style={{ height: '175px' }}>Estudiante de 4° en ingeniería del software de la Universidad de Málaga</p>
+            <p className={`${styles.description}`} style={{ height: '193px' }}>Estudiante de 4° en ingeniería del software de la Universidad de Málaga</p>
             <p className={`${styles.icons}`}>
 
             </p>

@@ -6,6 +6,8 @@ header{
   background: url('../../sprites/salmo.svg') center/cover no-repeat;
 }
 
+
+
 .botonInicio{
     background:#db324a;
     border-radius: 30px; /* Ajusta el valor según el nivel de redondeo que desees */

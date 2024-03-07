@@ -1,5 +1,13 @@
 import logo from "../../sprites/logo-aula-blanco.png";
 import styles from "./Footer.module.css";
+import twitter from '../../sprites/featherIcons/twitter.svg'
+import facebook from '../../sprites/featherIcons/facebook.svg'
+import github from '../../sprites/featherIcons/github.svg'
+import youtube from '../../sprites/featherIcons/youtube.svg'
+import instagram from '../../sprites/featherIcons/instagram.svg'
+import telegram from '../../sprites/featherIcons/telegram.svg'
+import mail from '../../sprites/featherIcons/mail.svg'
+import map from '../../sprites/featherIcons/map.svg'
 
 export default function Header() {
   return (
@@ -21,13 +29,29 @@ export default function Header() {
           </div>
           <div className="row">
             <div className="col-12">
-              <a href="https://www.facebook.com/AulaSoftwareLibre/" target="_blank"><i className="fa-brands fa-facebook fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
-              <a href="https://www.instagram.com/aulasoftwarelibre/?hl=es" target="_blank"><i className="fa-brands fa-instagram fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
-              <a href="https://t.me/AulaSoftwareLibreUCO" target="_blank"><i className="fa-brands fa-telegram fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
-              <a href="https://twitter.com/AulaSL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i className="fa-brands fa-twitter fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
-              <a href="https://github.com/aulasoftwarelibre" target="_blank"><i className="fa-brands fa-github fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
-              <a href="https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w" target="_blank"><i className="fa-brands fa-youtube fa-2xl" style={{ color: "#ffffff", padding: "2%" }}></i></a>
+
+              <a href="https://www.facebook.com/AulaSoftwareLibre/" target="_blank" style={{ padding: "2%" }}>
+                <img src={facebook} alt="Facebook" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://www.instagram.com/aulasoftwarelibre/?hl=es" target="_blank" style={{ padding: "2%" }}>
+                <img src={instagram} alt="Instagram" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://t.me/AulaSoftwareLibreUCO" target="_blank" style={{ padding: "2%" }}>
+                <img src={telegram} alt="Telegram" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://twitter.com/AulaSL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style={{ padding: "2%" }}>
+                <img src={twitter} alt="Twitter" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://github.com/aulasoftwarelibre" target="_blank" style={{ padding: "2%" }}>
+                <img src={github} alt="GitHub" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w" target="_blank" style={{ padding: "2%" }}>
+                <img src={youtube} alt="GitHub" style={{ width: "2em", height: "2em" }} />
+              </a>
               
+             
+              
+  
               
             </div>
           </div>
@@ -40,7 +64,7 @@ export default function Header() {
           </div>
           <div className="row align-items-center">
             <div className="col-1">
-              <i className="fa-regular fa-envelope fa-2xl" style={{ color: "#ffffff" }}></i>
+              <img src={mail} alt="Mail" style={{ width: "2em", height: "2em" }} />
             </div>
             <div className="col">
               <h3>
@@ -50,7 +74,7 @@ export default function Header() {
           </div>
           <div className="row">
             <div className="col-12">
-              <h3> <i className="fa-solid fa-location-dot fa-l" style={{ color: "#ffffff" }}></i>Aulario Averroes</h3>
+              <h3>  <img src={map} alt="Map" style={{ width: "1em" }} /> Aulario Averroes</h3>
             </div>
           </div>
           <div className="row">
