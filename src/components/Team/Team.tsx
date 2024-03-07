@@ -117,7 +117,7 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img7} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Arturo Vicente Pérez</b></h5>
-            <p className={`${styles.description}`}>Coordinador de infraestructura amante del cacharreo y de los cacharros</p>
+            <p className={`${styles.description}`}>Director de desastres digitales y amante de los trastos tecnológicos</p>
             <p className={`${styles.icons}`}>
 
               <a href="https://twitter.com/ARVIPE_01" target="_blank" style={{ padding: "2%" }}>
@@ -348,9 +348,11 @@ const Team: React.FC = () => {
           <div className={`${styles.content}`}>
             <img src={img18} alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Alberto Fernández Ramos </b></h5>
-            <p className={`${styles.description}`} style={{ height: '193px' }}>Estudiante de 4° en ingeniería del software de la Universidad de Málaga</p>
+            <p className={`${styles.description}`}>Estudiante de 4° en ingeniería del software de la Universidad de Málaga</p>
             <p className={`${styles.icons}`}>
-
+            <a href="https://github.com/alberto11fdez" target="_blank" style={{ padding: "2%" }}>
+                <img src={github} alt="GitHub" style={{ width: "2em", height: "2em" }} />
+              </a>  
             </p>
           </div>
         </div>

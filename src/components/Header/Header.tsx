@@ -4,6 +4,12 @@ import styles from "./Header.module.css";
 import calendar from "../../sprites/featherIcons/calendar.svg";
 
 export default function Header() {
+
+
+  function handleClick() {
+    window.location.href = "https://www.eventbrite.es/e/entradas-salmorejotech-2024-787953087897";
+  }
+
   return (
     <header className={styles.contenedor}>
       <div className="container-fluid">
@@ -45,7 +51,7 @@ export default function Header() {
       </div>
       <div className="row mt-4 container-fluid">
         <div className="container-fluid">
-          <button className={`${styles.botonInicio}`} type="button">ENTRADAS</button>
+          <button className={`${styles.botonInicio}`} type="button" onClick={handleClick}>ENTRADAS</button>
         </div>
       </div>
     </header>
