@@ -1,20 +1,21 @@
 import styles from "./Info.module.css";
-import imagen0 from "../../sprites/imagenesInicio/0.jpg";
-import imagen1 from "../../sprites/imagenesInicio/1.jpg";
-import imagen2 from "../../sprites/imagenesInicio/2.jpg";
-import imagen3 from "../../sprites/imagenesInicio/3.jpg";
-import imagen4 from "../../sprites/imagenesInicio/4.jpg";
-import imagen5 from "../../sprites/imagenesInicio/5.jpg";
-import imagen6 from "../../sprites/imagenesInicio/6.jpg";
-import imagen7 from "../../sprites/imagenesInicio/7.jpg";
-import imagen8 from "../../sprites/imagenesInicio/8.jpg";
-import imagen9 from "../../sprites/imagenesInicio/9.jpg";
-import imagen10 from "../../sprites/imagenesInicio/10.jpg";
-import imagen11 from "../../sprites/imagenesInicio/11.jpg";
-import imagen12 from "../../sprites/imagenesInicio/12.jpg";
+import imagen0 from "../../sprites/imagenesInicio/0-min.jpg";
+import imagen1 from "../../sprites/imagenesInicio/1-min.jpg";
+import imagen2 from "../../sprites/imagenesInicio/2-min.jpg";
+import imagen3 from "../../sprites/imagenesInicio/3-min.jpg";
+import imagen4 from "../../sprites/imagenesInicio/4-min.jpg";
+import imagen5 from "../../sprites/imagenesInicio/5-min.jpg";
+import imagen6 from "../../sprites/imagenesInicio/6-min.jpg";
+import imagen7 from "../../sprites/imagenesInicio/7-min.jpg";
+import imagen8 from "../../sprites/imagenesInicio/8-min.jpg";
+import imagen9 from "../../sprites/imagenesInicio/9-min.jpg";
+import imagen10 from "../../sprites/imagenesInicio/10-min.jpg";
+import imagen11 from "../../sprites/imagenesInicio/11-min.jpg";
+import imagen12 from "../../sprites/imagenesInicio/12-min.jpg";
 import ticket from "../../sprites/featherIcons/ticket.svg"
 import mic from "../../sprites/featherIcons/mic.svg"
 import networking from "../../sprites/featherIcons/networking.svg"
+import lugar from "../../sprites/lugar.jpg"
 
 
 export default function Info(){
@@ -115,7 +116,7 @@ export default function Info(){
                   <h1>LUGAR</h1>
                 </div>
                 <div className="py-3 my-3 col-10 container-fluid d-flex align-items-center justify-content-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.693549554163!2d-4.7934608!3d37.8674603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d20bc67258437%3A0x1fd0ac9aac3c638a!2sColegio%20Mayor%20Nuestra%20Se%C3%B1ora%20de%20La%20Asuncion!5e0!3m2!1ses!2ses!4v1709680133633!5m2!1ses!2ses" width="600" height="450" style={{border: '0'}}  loading="lazy"></iframe>
+                <img src={lugar} className={`img-fluid`}  width={500} height={500} />
                 </div>
               </div>
               <br />
