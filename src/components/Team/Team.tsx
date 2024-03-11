@@ -24,6 +24,7 @@ import github from '../../sprites/featherIcons/github.svg'
 const Team: React.FC = () => {
   return (
     <div className='container pt-5' id='participantes'>
+      <h1 className={styles.schedule}>ORGANIZACIÓN DEL SALMOREJO</h1>
       <h1 className={styles.schedule}>GENERAL</h1>
       <div className={`row ${styles.cardContainer}`}>
         <div className={`col-md-6 ${styles.card}`}>
@@ -243,7 +244,9 @@ const Team: React.FC = () => {
             <p className={`${styles.icons}`}>
 
 
-
+              <a href="https://twitter.com/Albapj011" target="_blank" style={{ padding: "2%" }}>
+                <img src={twitter} alt="Twitter" style={{ width: "2em", height: "2em" }} />
+              </a>
               <a href="https://www.linkedin.com/in/alba-palomino-jim%C3%A9nez-966ab9222/" target="_blank" style={{ padding: "2%" }}>
                 <img src={linkdln} alt="Linkdln" style={{ width: "2em", height: "2em" }} />
               </a>
