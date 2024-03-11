@@ -20,6 +20,7 @@ import img18 from '../../sprites/equipo/alberto-min.jpeg'
 import twitter from '../../sprites/featherIcons/twitter.svg'
 import linkdln from '../../sprites/featherIcons/linkedin.svg'
 import github from '../../sprites/featherIcons/github.svg'
+import img19 from '../../sprites/equipo/jimeninho.jpg'
 
 const Team: React.FC = () => {
   return (
@@ -295,6 +296,31 @@ const Team: React.FC = () => {
               <a href="https://github.com/Xxema23" target="_blank" style={{ padding: "2%" }}>
                 <img src={github} alt="GitHub" style={{ width: "2em", height: "2em" }} />
               </a>   
+
+             
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={`row ${styles.cardContainer}`}>
+      <div className={`col-md-6 ${styles.card}`}>
+          <div className={`${styles.fireFlame}`}></div>
+          <div className={`${styles.content}`}>
+            <img src={img19} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <h5><b>Antonio Jiménez Jiménez</b></h5>
+            <p className={`${styles.description}`}>Estudiante de ingeniería informática especializado en software y coordinador del aula de software libre</p>
+            <p className={`${styles.icons}`}>
+
+
+              <a href="https://twitter.com/antoniojj1712" target="_blank" style={{ padding: "2%" }}>
+                <img src={twitter} alt="Twitter" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://www.linkedin.com/in/antonio-jim%C3%A9nez-jim%C3%A9nez-084645222/" target="_blank" style={{ padding: "2%" }}>
+                <img src={linkdln} alt="Linkdln" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://github.com/jimenez1712" target="_blank" style={{ padding: "2%" }}>
+                <img src={github} alt="GitHub" style={{ width: "2em", height: "2em" }} />
+              </a> 
 
              
             </p>
