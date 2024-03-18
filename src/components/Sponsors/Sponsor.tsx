@@ -4,8 +4,9 @@ import universidad from '../../sprites/sponsors/universidad.jpg';
 import consejosocial from '../../sprites/sponsors/consejosocial.jpg';
 import eprinsa from '../../sprites/sponsors/eprinsa.jpg'
 import rabanales21 from '../../sprites/sponsors/rabanales21.jpg'
-{/*
 import audiense from '../../sprites/sponsors/audiense.svg'
+
+{/*
 import epsc from '../../sprites/sponsors/epsc.jpg'
 import freepik from '../../sprites/sponsors/freepik.jpg'
 import genially from '../../sprites/sponsors/genially.jpg'
@@ -39,11 +40,12 @@ const Sponsor: React.FC = () => {
                     <img className={styles.icon} src={rabanales21} width={160} style={{maxHeight: '200px'}} />
                 </div>
             </div>
-            {/** 
             <div className="row pt-4">
                 <div className="col-sm">
                     <img className={styles.icon} src={audiense} width={200} />
                 </div>
+            </div>
+                {/** 
                 <div className="col-sm">
                     <img className={styles.icon} src={epsc} width={100} />
                 </div>
