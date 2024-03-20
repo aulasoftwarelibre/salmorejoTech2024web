@@ -5,10 +5,9 @@ import consejosocial from '../../sprites/sponsors/consejosocial.jpg';
 import eprinsa from '../../sprites/sponsors/eprinsa.jpg'
 import rabanales21 from '../../sprites/sponsors/rabanales21.jpg'
 import audiense from '../../sprites/sponsors/audiense.svg'
-
-{/*
 import epsc from '../../sprites/sponsors/epsc.jpg'
 import freepik from '../../sprites/sponsors/freepik.jpg'
+{/*
 import genially from '../../sprites/sponsors/genially.jpg'
 import inditex from '../../sprites/sponsors/inditextech.jpg'
 import vant from '../../sprites/sponsors/vant.svg'
@@ -45,13 +44,13 @@ const Sponsor: React.FC = () => {
                     <img className={styles.icon} src={audiense} width={200} />
                 </div>
             </div>
-                {/** 
                 <div className="col-sm">
                     <img className={styles.icon} src={epsc} width={100} />
                 </div>
                 <div className="col-sm">
                     <img className={styles.icon} src={freepik} width={180} />
                 </div>
+                {/** 
                 <div className="col-sm">
                     <img className={styles.icon} style={{marginTop: '20px'}} src={genially} width={180} />
                 </div>
