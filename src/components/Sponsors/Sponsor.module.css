@@ -4,6 +4,19 @@
     font-weight: bold;
 }
 
+.audiense{
+    margin-top: 50px;
+}
+
+@media (max-width: 576px) { 
+    .audiense{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
 .icon{
     transition: transform 0.3s ease;
 }

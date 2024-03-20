@@ -41,15 +41,15 @@ const Sponsor: React.FC = () => {
             </div>
             <div className="row pt-4">
                 <div className="col-sm">
-                    <img className={styles.icon} src={audiense} width={200} />
+                    <img className={`${styles.icon} ${styles.audiense}`} src={audiense} width={200} />
+                </div>
+                <div className="col-sm">
+                    <img className={`mt-3 ${styles.icon}`} src={epsc} width={100} />
+                </div>
+                <div className="col-sm">
+                    <img  className={`mt-3 ${styles.icon}`} src={freepik} width={180} />
                 </div>
             </div>
-                <div className="col-sm">
-                    <img className={styles.icon} src={epsc} width={100} />
-                </div>
-                <div className="col-sm">
-                    <img className={styles.icon} src={freepik} width={180} />
-                </div>
                 {/** 
                 <div className="col-sm">
                     <img className={styles.icon} style={{marginTop: '20px'}} src={genially} width={180} />
