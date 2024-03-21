@@ -28,7 +28,7 @@ export default function Info() {
   useEffect(() => {
     const fetchImages = async () => {
       const imageImports = await Promise.all(
-        Object.entries(lazyLoadedImages).map(([key, importFunc]) => importFunc())
+        Object.entries(lazyLoadedImages).map(([, importFunc]) => importFunc())
       );
       const imagesObject = Object.fromEntries(imageImports.map((imported, index) => [`imagen${index}`, imported]));
       setImages(imagesObject);
