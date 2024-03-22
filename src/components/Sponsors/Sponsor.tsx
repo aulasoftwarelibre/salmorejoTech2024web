@@ -7,9 +7,10 @@ import rabanales21 from '../../sprites/sponsors/rabanales21.jpg'
 import audiense from '../../sprites/sponsors/audiense.svg'
 import epsc from '../../sprites/sponsors/epsc.jpg'
 import freepik from '../../sprites/sponsors/freepik.jpg'
-{/*
+
 import genially from '../../sprites/sponsors/genially.jpg'
 import inditex from '../../sprites/sponsors/inditextech.jpg'
+{/*
 import vant from '../../sprites/sponsors/vant.svg'
 import sngular from '../../sprites/sponsors/sngular.png'
 import nttdata from '../../sprites/sponsors/descarga__2_-removebg-preview.png'
@@ -27,38 +28,56 @@ const Sponsor: React.FC = () => {
             <h1 className={`${styles.schedule} pt-5`}>PATROCINADORES</h1>
             <div className="row pt-4">
             <div className="col-sm-6 col-md-3">
-                    <img className={styles.icon} src={universidad} width={250} style={{maxHeight: '200px'}} />
+                <a href="https://www.uco.es/">
+                    <img className={styles.icon}  src={universidad} width={250} style={{maxHeight: '200px'}} />
+                </a>
                 </div>
                 <div className="col-sm-6 col-md-3">
+                    <a href="http://www.uco.es/organizacion/consejosocial/index.php/es/">
                     <img className={styles.icon} src={consejosocial} width={160} style={{maxHeight: '200px'}} />
+                    </a>
                 </div>
                 <div className="col-sm-6 col-md-3">
+                    <a href="https://www.eprinsa.es/">
                     <img className={styles.icon} src={eprinsa} width={160} style={{maxHeight: '200px'}} />
+                    </a>
                 </div>
                 <div className="col-sm-6 col-md-3">
+                    <a href="https://ptcordoba.es/">
                     <img className={styles.icon} src={rabanales21} width={160} style={{maxHeight: '200px'}} />
+                    </a>
                 </div>
             </div>
             <div className="row pt-4">
                 <div className="col-sm">
+                    <a href="https://es.audiense.com/">
                     <img className={`${styles.icon} ${styles.audiense}`} src={audiense} width={200} />
+                    </a>
                 </div>
                 <div className="col-sm">
+                    <a href="https://www.uco.es/eps/es/">
                     <img className={`mt-3 ${styles.icon}`} src={epsc} width={100} />
+                    </a>
                 </div>
                 <div className="col-sm">
+                    <a href="https://www.freepik.es/">
                     <img  className={`mt-3 ${styles.icon}`} src={freepik} width={180} />
+                    </a>
                 </div>
-            </div>
-                {/** 
                 <div className="col-sm">
-                    <img className={styles.icon} style={{marginTop: '20px'}} src={genially} width={180} />
+                    <a href="https://genial.ly/es/">
+                    <img className={styles.icon} style={{marginTop: '40px'}} src={genially} width={180} />
+                    </a>
                 </div>
             </div>
             <div className="row pt-4">
                 <div className="col-sm">
+                    <a href="https://www.inditex.com/itxcomweb/es/home">
                     <img className={styles.icon} src={inditex} width={250} />
+                    </a>
                 </div>
+            </div>
+                {/*
                 <div className="col-sm">
                     <img className={styles.icon} style={{marginTop: '100px'}} src={vant} width={150} />
                 </div>
