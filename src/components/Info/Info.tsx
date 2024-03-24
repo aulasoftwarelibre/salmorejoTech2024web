@@ -12,7 +12,6 @@ import imagen8 from "../../sprites/imagenesInicio/8-min.jpg";
 import imagen9 from "../../sprites/imagenesInicio/9-min.jpg";
 import imagen10 from "../../sprites/imagenesInicio/10-min.jpg";
 import imagen11 from "../../sprites/imagenesInicio/11-min.jpg";
-import imagen12 from "https://i.ibb.co/zxVF3CJ/12-min.jpg";
 import ticket from '../../sprites/featherIcons/ticket.svg';
 import mic from '../../sprites/featherIcons/mic.svg';
 import networking from '../../sprites/featherIcons/networking.svg';
