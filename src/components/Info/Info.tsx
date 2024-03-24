@@ -18,7 +18,7 @@ const lazyLoadedImages: { [key: string]: () => Promise<string> } = {
   imagen9: () => import("../../sprites/imagenesInicio/9-min.jpg").then(module => module.default),
   imagen10: () => import("../../sprites/imagenesInicio/10-min.jpg").then(module => module.default),
   imagen11: () => import("../../sprites/imagenesInicio/11-min.jpg").then(module => module.default),
-  imagen12: () => import("../../sprites/imagenesInicio/12-min.jpg").then(module => module.default),
+  imagen12: () => import("https://i.ibb.co/zxVF3CJ/12-min.jpg").then(module => module.default),
 };
 
 export default function Info() {
