@@ -6,7 +6,10 @@ import Header from "./components/Header/Header";
 import Info from "./components/Info/Info";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
-import Sponsor from "./components/Sponsors/Sponsor";
+import sponsors from '../data/sponsors.json';
+import { SponsorsGrid } from "./components/Sponsors/grid";
+import { SponsorProps } from "./components/Sponsors";
+
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
       <Header />
       <Info />
       <Team/>
-      <Sponsor/>
+      <SponsorsGrid sponsors={sponsors as SponsorProps[]}/>
       <Footer/>
     </div>
     </>

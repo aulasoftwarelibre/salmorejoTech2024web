@@ -3,6 +3,7 @@ import styles from "./Info.module.css";
 import ticket from '../../sprites/featherIcons/ticket.svg';
 import mic from '../../sprites/featherIcons/mic.svg';
 import networking from '../../sprites/featherIcons/networking.svg';
+import Audiense from "../Audiense/Audiense";
 
 export default function Info() {
   return (
@@ -43,6 +44,9 @@ export default function Info() {
             <div className="container pt-5 col-md-5">
               <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                 <div className={`carousel-inner ${styles.middle}`}>
+                  <div className="carousel-item">
+                    <img src="https://i.ibb.co/TtQ15dD/8-min.jpg" className={`d-block w-100 ${styles.imagen}`} alt="imagen del carrousel" />
+                  </div>
                   <div className="carousel-item active">
                     <img src="https://i.ibb.co/fMyM93r/0-min.jpg" className={`d-block w-100 ${styles.imagen}`} alt="imagen del carrousel" />
                   </div>
@@ -67,9 +71,7 @@ export default function Info() {
                   <div className="carousel-item">
                     <img src="https://i.ibb.co/k8m0Y4b/7-min.jpg" className={`d-block w-100 ${styles.imagen}`} alt="imagen del carrousel" />
                   </div>
-                  <div className="carousel-item">
-                    <img src="https://i.ibb.co/TtQ15dD/8-min.jpg" className={`d-block w-100 ${styles.imagen}`} alt="imagen del carrousel" />
-                  </div>
+
                   <div className="carousel-item">
                     <img src="https://i.ibb.co/84hDTX6/9-min.jpg" className={`d-block w-100 ${styles.imagen}`} alt="imagen del carrousel" />
                   </div>
@@ -99,21 +101,20 @@ export default function Info() {
             <div className="row pt-5 mt-5">
               <h1>LUGAR</h1>
             </div>
-            <div className="row pt-3">
-              <div className="col-md-6">
-            <div className=" align-items-center justify-content-center">
-              <img src="https://i.ibb.co/0cCrym2/lugar.jpg" className={`img-fluid`} width={550} height={500} loading="lazy" />
-            </div>
-            </div>
-            <div className="col-md-6">
-              <div className="container">
-              esto es un texto
-              </div>
+            <div className="row pt-5 p-0">
+              <div className="container pt-5 col-md-5 p-0"><img src="https://i.ibb.co/0cCrym2/lugar.jpg" className={`img-fluid ${styles.middle}`} width={550} height={500} loading="lazy" /></div>
+              <div className="container-fluid pt-5 col-md-6 justify-content-center" style={{ margin: "auto", marginLeft: '10px' }}>
+                <h4> <a href="https://maps.app.goo.gl/DnQ3WXBszrnSNvSU7" style={{ color: 'white' }}>
+                  El evento se va a realizar en el Colegio Mayor Nuestra Señora de La Asunción
+                  s n, Av. Menéndez Pidal, 14004 Córdoba. </a></h4>
+                <h4>En el mapa se pueden ver varias rutas que podéis seguir si queréis utilizar el transporte público. Además, hay carriles bici para poder acceder al evento en ella si así lo deseais. </h4>
+                <h4>Por otro lado, en el mapa se pueden observar los distintos aparcamientos que hay cerca del lugar del evento por si tenéis que acceder con vuestro vehículo propio.</h4>
               </div>
             </div>
           </div>
           <br />
         </div>
+        <Audiense/>
       </div>
       <div className={styles.fondoblanco}>
         <div className="container-fluid mt-5">

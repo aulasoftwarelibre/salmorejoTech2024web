@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Audiense",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/audiense.svg",
+    "href": "https://es.audiense.com/"
+  },
+  {
+    "name": "Vant",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/vant.png",
+    "href": "https://www.vantpc.es/"
+  },
+  {
+    "name": "Cátedra Eprinsa",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/catedra_eprinsa.png",
+    "href": "https://www.linkedin.com/in/c%C3%A1tedra-eprinsa-uco-transformaci%C3%B3n-digital-51333a217/"
+  },
+  {
+    "name": "Escuela Politécnica Superior de Cordoba",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/epsc.svg",
+    "href": "https://www.uco.es/eps/es/"
+  },
+  {
+    "name": "Sngular",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/SNGULAR.svg",
+    "href": "https://www.sngular.com/"
+  },
+  {
+    "name": "Genially",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/genially.svg",
+    "href": "https://genial.ly/"
+  },
+  {
+    "name": "Rabanales 21",
+    "type": "CHERRY",
+    "imageUrl": "/src/sprites/sponsors/rab21.svg",
+    "href": "https://rabanales21.com/"
+  },
+  {
+    "name": "NTT Data",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/nttdata.svg",
+    "href": "https://es.nttdata.com/"
+  },
+  {
+    "name": "Consejo Social UCO",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/consejo-social.png",
+    "href": "http://www.uco.es/organizacion/consejosocial/index.php/es/"
+  },
+  {
+    "name": "Universidad de Cordoba",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/uco.png",
+    "href": "http://www.uco.es/"
+  },
+  {
+    "name": "Freepik",
+    "type": "CHERRY",
+    "imageUrl": "/src/sprites/sponsors/freepik.jpg",
+    "href": "https://www.freepik.es/"
+  },
+  {
+    "name": "InditexTech",
+    "type": "PERA",
+    "imageUrl": "/src/sprites/sponsors/inditextech.jpg",
+    "href": "https://www.inditex.com/itxcomweb/es/home"
+  }
+ 
+  
+]
