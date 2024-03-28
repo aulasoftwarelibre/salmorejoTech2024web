@@ -6,6 +6,7 @@ import github from '../../sprites/featherIcons/github.svg'
 import youtube from '../../sprites/featherIcons/youtube.svg'
 import instagram from '../../sprites/featherIcons/instagram.svg'
 import telegram from '../../sprites/featherIcons/telegram.svg'
+import linkedln from '../../sprites/featherIcons/linkedin.svg'
 import mail from '../../sprites/featherIcons/mail.svg'
 import map from '../../sprites/featherIcons/map.svg'
 
@@ -38,6 +39,9 @@ export default function Header() {
               </a>
               <a href="https://t.me/AulaSoftwareLibreUCO" target="_blank" style={{ padding: "2%" }}>
                 <img src={telegram} alt="Telegram" style={{ width: "2em", height: "2em" }} />
+              </a>
+              <a href="https://www.linkedin.com/company/aulasoftwarelibre/" target="_blank" style={{ padding: "2%" }}>
+                <img src={linkedln} alt="Linkedln" style={{ width: "2em", height: "2em" }} />
               </a>
               <a href="https://twitter.com/AulaSL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style={{ padding: "2%" }}>
                 <img src={twitter} alt="Twitter" style={{ width: "2em", height: "2em" }} />

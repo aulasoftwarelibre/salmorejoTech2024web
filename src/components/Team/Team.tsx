@@ -1,26 +1,11 @@
 import React from 'react';
 import styles from './Team.module.css';
-import img2 from '../../sprites/equipo/ASL_Silvia - Silvia Roldán-min.jpeg';
-import img3 from '../../sprites/equipo/jesus-min.jpg';
-import img4 from '../../sprites/equipo/david-min.jpeg';
-import img5 from '../../sprites/equipo/dario-min.jpeg';
-import img6 from '../../sprites/equipo/pino-min.jpeg'
-import img7 from '../../sprites/equipo/1-min.jpeg'
-import img8 from '../../sprites/equipo/elena-min.jpeg'
-import img9 from '../../sprites/equipo/belen-min.jpeg'
-import img10 from '../../sprites/equipo/jose-min.jpeg'
-import img11 from '../../sprites/equipo/miguel-min.jpg'
-import img12 from '../../sprites/equipo/carlos-min.jpg'
-import img13 from '../../sprites/equipo/alba-min.jpeg'
-import img14 from '../../sprites/equipo/rafa-min.jpg'
-import img15 from '../../sprites/equipo/chema-min.jpg'
 import img16 from '../../sprites/equipo/gonzalo-min.jpg'
 import img17 from '../../sprites/equipo/alvaro-min.jpg'
 import img18 from '../../sprites/equipo/alberto-min.jpeg'
 import twitter from '../../sprites/featherIcons/twitter.svg'
 import linkdln from '../../sprites/featherIcons/linkedin.svg'
 import github from '../../sprites/featherIcons/github.svg'
-import img19 from '../../sprites/equipo/jimeninho.jpg'
 
 const Team: React.FC = () => {
   return (
@@ -31,7 +16,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img3} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/sRNt3tQ/jesus-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Jesus Escribano Serena</b></h5>
             <p className={`${styles.description}`}>Este año coordino un poco todo esto pero nada de esto sería posible sin esta gente que sale a mi alrededor 🤝🍅 . CAAAASI Ingeniero Informático y en mis ratos libres trabajo con datos en una startup. De Los Blázquez desde xiquitito</p>
             <p className={`${styles.icons}`}>
@@ -50,7 +35,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img2} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/51SQR1W/ASL-Silvia-Silvia-Rold-n-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Silvia Roldán Flores</b></h5>
             <p style={{height: '134px'}}>Estudiante de 4° de Ingeniería Informática en la mención de Software Product Developer en Audiense</p>
             <p className={`${styles.icons}`}>
@@ -69,7 +54,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img5} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/GdmLbfc/dario-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Darío Martínez Kostyuk</b></h5>
             <p style={{ height: '152px' }}>Deseando aprender y disfrutar mucho de esta experiencia </p>
             <p className={`${styles.icons}`} style={{ height: '23px' }}>
@@ -80,7 +65,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img4} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/88Lntb0/david-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>David Martínez Molina</b></h5>
             <p style={{ height: '192px' }}>Estudiante de ingeniería informática de la UCO</p>
             <p className={`${styles.icons}`}>
@@ -94,7 +79,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img6} alt="Avatar" className={`img-fluid`} style={{ width: '500px', height: '230px' }} />
+            <img src="https://i.ibb.co/SVYzbsT/pino-min.jpg" alt="Avatar" className={`img-fluid`} style={{ width: '500px', height: '230px' }} />
             <h5><b>Álvaro Pino Mérida</b></h5>
             <p className={`${styles.description}`}>🖥️Back-end que sabe como centrar un div</p>
             <p className={`${styles.icons}`}>
@@ -117,7 +102,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img7} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/m0ZFFkC/1-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Arturo Vicente Pérez</b></h5>
             <p className={`${styles.description}`}>Director de desastres digitales y amante de los trastos tecnológicos</p>
             <p className={`${styles.icons}`}>
@@ -138,7 +123,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img8} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/9NCfBw4/elena-min.png" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Elena Molero Padilla</b></h5>
             <p className={`${styles.description}`}>Estudiante de Ingeniería informática apasionada por los ámbitos artísticos 🌻</p>
             <p className={`${styles.icons}`}>
@@ -157,7 +142,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img9} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/4mnBW84/belen-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Belén Mª Montes Caro</b></h5>
             <p className={`${styles.description}`}>En mi tiempo libre estudio Ingeniería Informática</p>
             <p className={`${styles.icons}`}>
@@ -180,7 +165,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img10} alt="Avatar" className={`img-fluid`} style={{ width: '500px', height: '230px' }} />
+            <img src="https://i.ibb.co/vYZp826/jose-min.jpg" alt="Avatar" className={`img-fluid`} style={{ width: '500px', height: '230px' }} />
             <h5><b>José Andrés Trujillo Henares</b></h5>
             <p className={`${styles.description}`}>3rd year Computer Engineering student at UCO</p>
             <p className={`${styles.icons}`}>
@@ -199,7 +184,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img11} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/Rzr2vX1/miguel-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Miguel Orzáez Pintor</b></h5>
             <p className={`${styles.description}`}>Entusiasta y bastante friki de todo esto que cada día se da cuenta que sabe menos de todo este apasionado mundo</p>
             <p className={`${styles.icons}`}>
@@ -220,7 +205,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img12} alt="Avatar" className={`img-fluid`} style={{ height: '230px' }} />
+            <img src="https://i.ibb.co/Gpgs9HD/carlos-min.png" alt="Avatar" className={`img-fluid`} style={{ height: '230px' }} />
             <h5><b>Carlos Rivero Talavera</b></h5>
             <p className={`${styles.description}`}>Estudiante de 4º de Ingeniería Informática en la mención de Software</p>
             <p className={`${styles.icons}`}>
@@ -239,7 +224,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img13} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/WV2Rzy4/alba-min.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Alba Palomino Jiménez</b></h5>
             <p className={`${styles.description}`}>Estudiante del último curso de Ingeniería Informática en la mención de Software y co-coordinadora de Gestión junto con el de la derecha 👉🏻</p>
             <p className={`${styles.icons}`}>
@@ -262,7 +247,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img14} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/P6XqcyL/rafa-min.png" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Rafael Emilio Pérez </b></h5>
             <p className={`${styles.description}`}> Cordobéh, terminando la carrera y co-coordinador de Gestión del SalmorejoTech 2024 junto con la de la izquierda👈🏼 </p>
             <p className={`${styles.icons}`}>
@@ -282,7 +267,7 @@ const Team: React.FC = () => {
         <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img15} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/6bxV8DJ/chema-min.png" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Jose Maria Muñoz López</b></h5>
             <p className={`${styles.description}`}>Estudiante de ingeniería de computadores y miembro del aula del software libre</p>
             <p className={`${styles.icons}`}>
@@ -306,7 +291,7 @@ const Team: React.FC = () => {
       <div className={`col-md-6 ${styles.card}`}>
           <div className={`${styles.fireFlame}`}></div>
           <div className={`${styles.content}`}>
-            <img src={img19} alt="Avatar" className={`${styles.avatar} img-fluid`} />
+            <img src="https://i.ibb.co/7VwjscC/jimeninho.jpg" alt="Avatar" className={`${styles.avatar} img-fluid`} />
             <h5><b>Antonio Jiménez Jiménez</b></h5>
             <p className={`${styles.description}`}>Estudiante de ingeniería informática especializado en software y coordinador del aula de software libre</p>
             <p className={`${styles.icons}`}>
