@@ -1,23 +1,8 @@
 
 import styles from "./Info.module.css";
-import imagen0 from "../../sprites/imagenesInicio/0-min.jpg";
-import imagen1 from "../../sprites/imagenesInicio/1-min.jpg";
-import imagen2 from "../../sprites/imagenesInicio/2-min.jpg";
-import imagen3 from "../../sprites/imagenesInicio/3-min.jpg";
-import imagen4 from "../../sprites/imagenesInicio/4-min.jpg";
-import imagen5 from "../../sprites/imagenesInicio/5-min.jpg";
-import imagen6 from "../../sprites/imagenesInicio/6-min.jpg";
-import imagen7 from "../../sprites/imagenesInicio/7-min.jpg";
-import imagen8 from "../../sprites/imagenesInicio/8-min.jpg";
-import imagen9 from "../../sprites/imagenesInicio/9-min.jpg";
-import imagen10 from "../../sprites/imagenesInicio/10-min.jpg";
-import imagen11 from "../../sprites/imagenesInicio/11-min.jpg";
 import ticket from '../../sprites/featherIcons/ticket.svg';
 import mic from '../../sprites/featherIcons/mic.svg';
 import networking from '../../sprites/featherIcons/networking.svg';
-import lugar from '../../sprites/lugar.jpg';
-
-
 
 export default function Info() {
   return (
@@ -114,8 +99,17 @@ export default function Info() {
             <div className="row pt-5 mt-5">
               <h1>LUGAR</h1>
             </div>
-            <div className="py-3 my-3 col-10 container-fluid d-flex align-items-center justify-content-center">
-              <img src={lugar} className={`img-fluid`} width={500} height={500} loading="lazy" />
+            <div className="row pt-3">
+              <div className="col-md-6">
+            <div className=" align-items-center justify-content-center">
+              <img src="https://i.ibb.co/0cCrym2/lugar.jpg" className={`img-fluid`} width={550} height={500} loading="lazy" />
+            </div>
+            </div>
+            <div className="col-md-6">
+              <div className="container">
+              esto es un texto
+              </div>
+              </div>
             </div>
           </div>
           <br />

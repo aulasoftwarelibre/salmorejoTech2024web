@@ -12,9 +12,8 @@ import genially from '../../sprites/sponsors/genially.jpg'
 import inditex from '../../sprites/sponsors/inditextech.jpg'
 import vant from '../../sprites/sponsors/vant.svg'
 import sngular from '../../sprites/sponsors/sngular.png'
-{/*
-
 import nttdata from '../../sprites/sponsors/descarga__2_-removebg-preview.png'
+{/*
 import estrella from '../../sprites/sponsors/png-transparent-estrella-galicia-escudo-color-ial-hdjr-hd-logo-removebg-preview.png'
 import codely from '../../sprites/sponsors/170513882-a09eee57-7765-4ca4-b2dd-3c2e061fdad0-removebg-preview.png'
 import omniaccess from '../../sprites/sponsors/Untitled-design-14-removebg-preview.png'
@@ -84,12 +83,12 @@ const Sponsor: React.FC = () => {
                     <img className={styles.icon}  style={{marginTop: '70px'}}  src={sngular} width={180} />
                 </div>
             </div>
-                {/*
+
                 
                 <div className="col-sm">
-                    <img className={styles.icon}  style={{marginTop: '40px'}}  src={nttdata} width={250} />
+                    <img className={styles.icon}  style={{marginTop: '20px'}}  src={nttdata} width={250} />
                 </div>
-            </div>
+                            {/*
             <div className="row pt-4">
                 <div className="col-sm">
                     <img className={styles.icon} src={estrella} width={180} />
