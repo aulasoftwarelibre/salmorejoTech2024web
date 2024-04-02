@@ -70,7 +70,12 @@
     "type": "PERA",
     "imageUrl": "/sponsors/inditextech.jpg",
     "href": "https://www.inditex.com/itxcomweb/es/home"
+  },
+  {
+    "name": "Estrella Galicia",
+    "type": "PERA",
+    "imageUrl": "/sponsors/estrella-galicia.png",
+    "href": "https://estrellagalicia.es/"
   }
- 
   
 ]
