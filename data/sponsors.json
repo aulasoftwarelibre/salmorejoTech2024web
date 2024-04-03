@@ -76,6 +76,12 @@
     "type": "CHERRY",
     "imageUrl": "/sponsors/estrella-galicia.png",
     "href": "https://estrellagalicia.es/"
+  },
+  {
+    "name": "Codely",
+    "type": "PERA",
+    "imageUrl": "/sponsors/codely.png",
+    "href": "https://codely.com/"
   }
   
 ]
