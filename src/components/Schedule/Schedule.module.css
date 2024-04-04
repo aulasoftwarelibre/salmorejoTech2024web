@@ -4,6 +4,18 @@
     font-weight: bold;
 }
 
+@media (max-width: 1000px) {
+    .singleImg{
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .singleImg{
+        max-width: 55%;
+    }
+}
+
 .card{
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%);
@@ -12,6 +24,19 @@
 }
 
 .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia el estilo de la sombra al pasar el cursor */
+    transform: scale(1.05);
+}
+
+.cardEmpty{
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%);
+    cursor: pointer;
+    width: 86.333333%;
+    transition: box-shadow 0.3s ease;
+}
+
+.cardEmpty:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia el estilo de la sombra al pasar el cursor */
     transform: scale(1.05);
 }

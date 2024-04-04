@@ -9,6 +9,7 @@ import Team from "./components/Team/Team";
 import sponsors from '../data/sponsors.json';
 import { SponsorsGrid } from "./components/Sponsors/grid";
 import { SponsorProps } from "./components/Sponsors";
+import Schedule from "./components/Schedule/Schedule";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Header />
       <Info />
+      <Schedule/>
       <Team/>
       <SponsorsGrid sponsors={sponsors as SponsorProps[]}/>
       <Footer/>
