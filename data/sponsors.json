@@ -82,6 +82,18 @@
     "type": "PERA",
     "imageUrl": "/sponsors/codely.png",
     "href": "https://codely.com/"
+  },
+  {
+    "name": "OmniAccess",
+    "type": "CHERRY",
+    "imageUrl": "/sponsors/omniaccess.png",
+    "href": "https://www.omniaccess.com/"
+  },
+  {
+    "name": "Atmira",
+    "type": "CHERRY",
+    "imageUrl": "/sponsors/atmira.png",
+    "href": "https://www.atmira.com/"
   }
   
 ]
