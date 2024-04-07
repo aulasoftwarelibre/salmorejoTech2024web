@@ -16,6 +16,9 @@
     }
 }
 
+
+  
+
 .card{
     border-radius: 10px;
     background: linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%);
@@ -36,7 +39,47 @@
     transition: box-shadow 0.3s ease;
 }
 
+.cardEmptyComida{
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(246, 118, 26) 0%, rgba(246,69,26,1) 100%);
+    cursor: pointer;
+    width: 86.333333%;
+    transition: box-shadow 0.3s ease;
+}
+
+.cardEmptyFirst{
+    border-radius: 10px;
+    
+background: linear-gradient(90deg, rgb(223, 51, 51)0%, rgb(147, 5, 24)100%);
+    cursor: pointer;
+    width: 86.333333%;
+    transition: box-shadow 0.3s ease;
+}
+
+.cardEmptySingle{
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(204, 28, 75) 0%, rgb(160, 2, 55)100%);
+    cursor: pointer;
+    width: 86.333333%;
+    transition: box-shadow 0.3s ease;
+}
+
 .cardEmpty:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia el estilo de la sombra al pasar el cursor */
+    transform: scale(1.05);
+}
+
+.cardEmptySingle:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia el estilo de la sombra al pasar el cursor */
+    transform: scale(1.05);
+}
+
+.cardEmptyComida:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia el estilo de la sombra al pasar el cursor */
+    transform: scale(1.05);
+}
+
+.cardEmptyFirst:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Cambia el estilo de la sombra al pasar el cursor */
     transform: scale(1.05);
 }
@@ -51,11 +94,23 @@
     height: 100%;
     overflow: auto;
     margin-top: 4rem;
+    padding-bottom: 4rem;
     background-color: rgba(0, 0, 0, 0.5);
   }
   
   .modalContent {
     background: linear-gradient(90deg, rgba(246,69,26,1) 0%, rgba(206,41,96,1) 100%);
+    margin: 8% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    animation: zoomIn 0.5s ease forwards;
+    transform-origin: center;
+    opacity: 0;
+}
+
+.modalContentSingle {
+    background: linear-gradient(90deg, rgb(204, 28, 75) 0%, rgb(160, 2, 55)100%);
     margin: 8% auto;
     padding: 20px;
     border-radius: 10px;

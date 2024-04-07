@@ -9,7 +9,8 @@ function handleClick() {
 export default function Audiense() {
     return (
         <>
-            <div className="tomato-container d-sm-none d-block">
+        <div className="pt-5">
+        <div className="tomato-container d-sm-none d-block ">
                 <img src={tomato} className="tomato" alt="Tomato" />
             </div>
             <h2>¿Te encuentras en búsqueda activa de empleo?</h2>
@@ -20,6 +21,8 @@ export default function Audiense() {
             <div className="container-fluid">
           <button className="botonAudiense" type="button" onClick={handleClick} >AUDIENSE</button>
         </div>
+        </div>
+            
             
         </>
     );

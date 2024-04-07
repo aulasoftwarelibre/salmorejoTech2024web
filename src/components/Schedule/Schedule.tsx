@@ -9,12 +9,29 @@
   import Ivan from "../../sprites/ponentes/ivan.png";
   import Ana from "../../sprites/ponentes/ana.png";
   import Ariane from "../../sprites/ponentes/ariane.png";
+  import Patricia from "../../sprites/ponentes/patricia.png";
+  import FJavier from "../../sprites/ponentes/fjavier.png";
+  import IvanVa from "../../sprites/ponentes/ivanva.png";
   import styles from './Schedule.module.css';
+
+  const FirstCard: React.FC<{ title: string}> = (props) => {
+    return (
+      <>
+        <div className={`col-10 container-fluid d-flex justify-content-center ${styles.cardEmptyFirst}`}>
+          <div className="row">
+            <div className="col-12 d-flex align-items-center">
+              <h3 className={`${styles.scheduleTitle} ${styles.center}`}>{props.title}</h3>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  };
 
   const Card: React.FC<{ title: string}> = (props) => {
     return (
       <>
-        <div className={`col-10 container-fluid d-flex justify-content-center ${styles.cardEmpty}`}>
+        <div className={`col-10 container-fluid d-flex justify-content-center ${styles.cardEmptyComida}`}>
           <div className="row">
             <div className="col-12 d-flex align-items-center">
               <h3 className={`${styles.scheduleTitle} ${styles.center}`}>{props.title}</h3>
@@ -47,7 +64,7 @@
                 <h5 className={styles.scheduleAuthor}>{props.author}</h5>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 py-lg-4">
+            <div className="col-lg-5 col-md-12 py-4">
               <img src={props.image} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '50%' }} />
               <img src={props.image2} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '50%' }} />
             </div>
@@ -88,10 +105,10 @@
     return (
       <>
         <div
-          className={`col-10 container-fluid d-flex ${styles.cardEmpty}`}
+          className={`col-10 container-fluid d-flex ${styles.cardEmptySingle}`}
           onClick={toggleModal}
         >
-          <div className="row align-items-center">
+          <div className="row align-items-center mx-auto">
             <div className="col-lg-7 col-md-12 py-4">
               <div className="row">
                 <h3 className={styles.scheduleTitle}>{props.title}</h3>
@@ -100,7 +117,7 @@
                 <h5 className={styles.scheduleAuthor}>{props.author}</h5>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 py-lg-4">
+            <div className="col-lg-5 col-md-12 py-4 ">
               <img src={props.image} className={`img-fluid ${styles.singleImg}`} alt="..." style={{ maxHeight: '100%'}} />
             </div>
           </div>
@@ -108,7 +125,7 @@
 
         {isModalOpen && (
           <div className={styles.modal} onClick={toggleModal}>
-            <div className={styles.modalContent}>
+            <div className={styles.modalContentSingle}>
               <span className={styles.close} onClick={toggleModal}>&times;</span>
               <h2>{props.title}</h2>
               <p>Author: {props.author}</p>
@@ -151,7 +168,7 @@
                 <h5 className={styles.scheduleAuthor}>{props.author}</h5>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 py-lg-4">
+            <div className="col-lg-5 col-md-12 py-4">
               <img src={props.image} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '80%' }} />
             </div>
           </div>
@@ -201,7 +218,7 @@
               <h3>08:30</h3>
             </div>
           </div>
-          <Card title="CHECK-IN"/>
+          <FirstCard title="CHECK-IN"/>
         </div>
         <div className="row pt-2" style={{ alignItems: 'stretch' }}>
           <div
@@ -218,7 +235,7 @@
               <h3>09:10</h3>
             </div>
           </div>
-          <Card title="ACTO DE BIENVENIDA"/>
+          <FirstCard title="ACTO DE BIENVENIDA"/>
         </div>
         <div className="row pt-2" style={{ alignItems: 'stretch' }}>
           <div
@@ -365,7 +382,79 @@
           </div>
           <Card title="COMIDA"/>
         </div>
-
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+              
+            }}
+          >
+            <div className="row pb-5">
+              <h3>16:00</h3>
+            </div>
+            <div className="row pt-4">
+              <h3>16:40</h3>
+            </div>
+          </div>
+          <ScheduleCard title="¿POR QUÉ LAS PÁGINAS WEB SON TAN DIFERENTES?" author="Patricia Vázquez" image={Patricia}/>
+          <ScheduleCard title="¡COOKIEGEDDON! BYE A LAS COOKIES DE TERCEROS" author="Francisco Javier Barrena" image={FJavier}/>
+        </div>
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+              
+            }}
+          >
+            <div className="row pb-5">
+              <h3>16:45</h3>
+            </div>
+            <div className="row pt-4">
+              <h3>17:25</h3>
+            </div>
+          </div>
+          <ScheduleCard title="HAZ TUS CHATBOTS CON RASA OPENSOURCE (¡AHORA SIN LLMs!)" author="Ivan Valero" image={IvanVa}/>
+          <ScheduleCard title="EL PM, ¿AMIGO O ENEMIGO?" author="Guiomar" image={""}/>
+        </div>
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+              
+            }}
+          >
+            <div className="row pb-5">
+              <h3>17:30</h3>
+            </div>
+            <div className="row pt-4">
+              <h3>19:00</h3>
+            </div>
+          </div>
+          <SingleCard title="EL SOFTWARE LIBRE, LIBERTAD Y COMPROMISO SOCIAL" author="Richard Stallman" image={""}/>
+        </div>
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+            }}
+          >
+            <div className="row">
+              <h3>19:00</h3>
+            </div>
+            <div className="row">
+              <h3>20:00</h3>
+            </div>
+          </div>
+          <Card title="NETWORKING"/>
+        </div>
       </div>
     );
   };
