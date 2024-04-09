@@ -397,7 +397,7 @@
           </div>
           {/**<ScheduleCard title="SERVICE MESH: ¿Y ESO AHORA QUÉ ES?" author="Belén Feu" image=""/>**/}
           <TBAmid/>
-          <DoubleCard title="EPISODIO 1. EN EL QUE APRENDES BBD" author="Ana Cáceres y Ariane Zanardi" image={Ana} image2={Ariane} descripcion1='Ingenieras de Software centradas en el desarrollo de software y buenas prácticas.'  descripcion2="" descripcionCharla='En esta charla sobre Behavior-Driven Development (BDD), exploraremos en qué consiste BDD, El objetivo principal es tratar los conceptos fundamentales y mostrar cómo se puede aplicar en proyectos reales, Inspirándonos en "FRIENDS", descubriremos cómo BDD puede estar presente para apoyarnos en la creación de software de calidad.'/>
+          <DoubleCard title="EPISODIO 1. EN EL QUE APRENDES BDD" author="Ana Cáceres y Ariane Zanardi" image={Ana} image2={Ariane} descripcion1='Ingenieras de Software centradas en el desarrollo de software y buenas prácticas.'  descripcion2="" descripcionCharla='En esta charla sobre Behavior-Driven Development (BDD), exploraremos en qué consiste BDD, El objetivo principal es tratar los conceptos fundamentales y mostrar cómo se puede aplicar en proyectos reales, Inspirándonos en "FRIENDS", descubriremos cómo BDD puede estar presente para apoyarnos en la creación de software de calidad.'/>
         </div>
         <div className="row pt-2" style={{ alignItems: 'stretch' }}>
           <div
