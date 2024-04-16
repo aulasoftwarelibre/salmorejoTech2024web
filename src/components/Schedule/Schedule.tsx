@@ -15,8 +15,8 @@
   import Carlos from "../../sprites/ponentes/carlos.png";
   import JoseManuel from "../../sprites/ponentes/josemanuel.png";
   import Jorge from "../../sprites/ponentes/jorge.png";
- // import Guiomar from "../../sprites/ponentes/guiomar.png";
- // import IvanValero from "../../sprites/ponentes/ivanva.png";
+  import Guiomar from "../../sprites/ponentes/guiomar.png";
+  import IvanValero from "../../sprites/ponentes/ivanva.png";
 
   import styles from './Schedule.module.css';
 
@@ -560,9 +560,8 @@
               <h3>17:25</h3>
             </div>
           </div>
-          {/** <ScheduleCard title="HAZ TUS CHATBOTS CON RASA OPENSOURCE (¡AHORA SIN LLMs!)" author="Ivan Valero" image={IvanValero}/>
-          <ScheduleCard title="EL PM, ¿AMIGO O ENEMIGO?" author="Guiomar" image={Guiomar} descripcion=''/>**/}
-          <TBA/>
+          <ScheduleCard title="HAZ TUS CHATBOTS CON RASA OPENSOURCE (¡AHORA SIN LLMs!)" author="Ivan Valero" image={IvanValero} descripcion='Graduado en Ing, Informática por la UGR, Trabajo en Backend e investigo temas random' descripcionCharla='¿Te gustaría tener un Chatbot pero no te mola pagar por Azure ni Dialogflow? ¿No te gusta tirar de ChatGPT? ¿Estás leyendo esto con voz de Teletienda? Si es así, en esta charla hablaremos de Rasa, una solución de código abierto que puedes editar desde tu PC y desplegarlo ahí mismo, Crea tus preguntas y respuestas, dale acceso a Internet para buscar,,, Con YAML y Python puedes hacerlo fácilmente'/>
+          <ScheduleCard title="EL PM, ¿AMIGO O ENEMIGO?" author="Guiomar" image={Guiomar} descripcion='Trabajo en la frontera del PM y el PO pero sin simples etiquetas para acotar todo el trabajo que hago en equipo para desarrollar productos digitales.' descripcionCharla='Hablaremos de la figura del PM en el equipo del desarrollo y cómo entre todo se hace el producto'/>
         </div>
         <div className="row pt-2" style={{ alignItems: 'stretch' }}>
           <div
