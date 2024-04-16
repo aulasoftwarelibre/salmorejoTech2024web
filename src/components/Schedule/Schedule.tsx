@@ -11,7 +11,13 @@
   import Ariane from "../../sprites/ponentes/ariane.png";
   import Patricia from "../../sprites/ponentes/patricia.png";
   import FJavier from "../../sprites/ponentes/fjavier.png";
-  //import IvanVa from "../../sprites/ponentes/ivanva.png";
+  import Leonardo from "../../sprites/ponentes/leonardo.png";
+  import Carlos from "../../sprites/ponentes/carlos.png";
+  import JoseManuel from "../../sprites/ponentes/josemanuel.png";
+  import Jorge from "../../sprites/ponentes/jorge.png";
+ // import Guiomar from "../../sprites/ponentes/guiomar.png";
+ // import IvanValero from "../../sprites/ponentes/ivanva.png";
+
   import styles from './Schedule.module.css';
 
   const FirstCard: React.FC<{ title: string}> = (props) => {
@@ -179,6 +185,109 @@
     );
   };
 
+  
+  const SingleCardTalleres: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const toggleModal = () => {
+      setIsModalOpen(!isModalOpen);
+    };
+
+    return (
+      <>
+        <div
+          className={`col-10 container-fluid d-flex ${styles.card}`}
+          onClick={toggleModal}
+        >
+          <div className="row align-items-center mx-auto">
+            <div className="col-lg-7 col-md-12 py-4">
+              <div className="row">
+                <h3 className={styles.scheduleTitle}>{props.title}</h3>
+              </div>
+              <div>
+                <h5 className={styles.scheduleAuthor}>{props.author}</h5>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-12 py-4 ">
+              <img src={props.image} className={`img-fluid ${styles.singleImg}`} alt="..." style={{ maxHeight: '100%', maxWidth: '50%'}} />
+            </div>
+          </div>
+        </div>
+
+        {isModalOpen && (
+          <div className={styles.modal} onClick={toggleModal}>
+            <div className={styles.modalContentSingleTalleres}>
+              <span className={styles.close} onClick={toggleModal}>&times;</span>
+              <h2>{props.title}</h2>
+              <p>Author: {props.author}</p>
+              <div className='row'>
+                <div className="col-lg-7 col-md-12 py-4">
+                  <p>{props.descripcion}</p>
+                  <p className='mt-4'>{props.descripcionCharla}</p>
+                </div>
+                <div className="col-lg-5 col-md-12 py-lg-4">
+                  <img src={props.image} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '70%' }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </>
+    );
+  };
+
+  const BigDoubleCard: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string, image2: string }> = (props) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const toggleModal = () => {
+      setIsModalOpen(!isModalOpen);
+    };
+
+    return (
+      <>
+        <div
+          className={`col-10 container-fluid d-flex ${styles.card}`}
+          onClick={toggleModal}
+        >
+          <div className="row align-items-center mx-auto">
+            <div className="col-lg-7 col-md-12 py-4">
+              <div className="row">
+                <h3 className={styles.scheduleTitle}>{props.title}</h3>
+              </div>
+              <div>
+                <h5 className={styles.scheduleAuthor}>{props.author}</h5>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-12 py-4">
+              <img src={props.image} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '45%' }} />
+              <img src={props.image2} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '45%' }} />
+            </div>
+          </div>
+        </div>
+
+        {isModalOpen && (
+          <div className={styles.modal} onClick={toggleModal}>
+            <div className={styles.modalContentSingleTalleres}>
+              <span className={styles.close} onClick={toggleModal}>&times;</span>
+              <h2>{props.title}</h2>
+              <p>Author: {props.author}</p>
+              <div className='row'>
+                <div className="col-lg-7 col-md-12 py-4">
+                  <p>{props.descripcion}</p>
+                  <p className='mt-3'>{props.descripcionCharla}</p>
+                </div>
+                <div className="col-lg-5 col-md-12 py-lg-4">
+                  <img src={props.image} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '50%' }} />
+                  <img src={props.image2} className="img-fluid" alt="..." style={{ maxHeight: '100%', maxWidth: '50%' }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </>
+    );
+  };
+
   const ScheduleCard: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -234,7 +343,7 @@
     return (
       <div className='container'>
         <div className="row pt-4">
-          <h1 className={styles.schedule}>HORARIO</h1>
+          <h1 className={styles.schedule}>HORARIO - CHARLAS</h1>
         </div>
         <div className="row pt-5" style={{ alignItems: 'stretch' }}>
           <div
@@ -451,8 +560,8 @@
               <h3>17:25</h3>
             </div>
           </div>
-          {/**<ScheduleCard title="HAZ TUS CHATBOTS CON RASA OPENSOURCE (¡AHORA SIN LLMs!)" author="Ivan Valero" image={IvanVa}/>
-          <ScheduleCard title="EL PM, ¿AMIGO O ENEMIGO?" author="Guiomar" image={""}/>**/}
+          {/** <ScheduleCard title="HAZ TUS CHATBOTS CON RASA OPENSOURCE (¡AHORA SIN LLMs!)" author="Ivan Valero" image={IvanValero}/>
+          <ScheduleCard title="EL PM, ¿AMIGO O ENEMIGO?" author="Guiomar" image={Guiomar} descripcion=''/>**/}
           <TBA/>
         </div>
         <div className="row pt-2" style={{ alignItems: 'stretch' }}>
@@ -491,7 +600,65 @@
           </div>
           <Card title="NETWORKING"/>
         </div>
-      </div>
+        <div className="row pt-5">
+          <h1 className={styles.schedule}>HORARIO - TALLERES</h1>
+        </div>
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+            }}
+          >
+            <div className="row pb-5">
+              <h3>11:00</h3>
+            </div>
+            <div className="row pt-4">
+              <h3>12:25</h3>
+            </div>
+          </div>
+          <BigDoubleCard title="ENTREVISTAS TÉCNICAS. POR QUÉ?" author="Leonardo Poza y Carlos Alonso" image={Leonardo} image2={Carlos} descripcion='Burgalés, Feliz al cuadrado, Padre por duplicado, Afortunado, Dev, Tech Recruiter' descripcionCharla='Las entrevistas técnicas, a menudo similares a oposiciones, no permiten mostrar las verdaderas cualidades de los candidatos, Las empresas buscan habilidades difíciles de medir en el actual modelo, Resolver problemas triviales en una pizarra no revela habilidades prácticas, El proceso actual no beneficia a empresas ni candidatos, requiere un debate y mejora en el ámbito tecnológico,'/>
+        </div>
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+              
+            }}
+          >
+            <div className="row pb-5">
+              <h3>13:20</h3>
+            </div>
+            <div className="row pt-4">
+              <h3>14:40</h3>
+            </div>
+          </div>
+          <SingleCardTalleres title="DESMITIFICANDO LAS BASES DE DATOS: EXPLAIN_INDICES_REFACTOR" author="Jose Manuel Rodriguez Morales" image={JoseManuel} descripcion='Soy ingeniero de software en Doctoralia y he trabajado en otras empresas como Veepee' descripcionCharla='Seguro que alguna vez hemos tenido que crear una tabla en base de datos. añadir una columna o revisar una query que iba lenta. En este taller podremos aprender cómo interpretar los explains y cómo crear índices con sentido que nos permitan unas queries más rápidas. También analizaremos cómo hacer refactors en nuestra base de datos: cómo renombrar columnas. hacer split de atributos...'/>
+        </div>
+        <div className="row pt-2" style={{ alignItems: 'stretch' }}>
+          <div
+            className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
+            style={{
+              borderRadius: '10px',
+              background: 'linear-gradient(90deg, rgba(186,23,26,1) 0%, rgba(153,9,52,1) 100%)'
+              
+            }}
+          >
+            <div className="row pb-5">
+              <h3>16:00</h3>
+            </div>
+            <div className="row pt-4">
+              <h3>17:25</h3>
+            </div>
+          </div>
+          <SingleCardTalleres title="INTRODUCCIÓN A SERVERLESS" author="Jorge Aguilar Martín" image={Jorge} descripcion='Amante del movimiento crafter y los test. Friki de AWS y Serverless' descripcionCharla='Veremos paso a paso como tener una api implementada en serverless sobre AWS. Desde los pasos con la consola de AWS hasta una manera de desplegar unicamente con un comando.'/>
+        </div>
+        </div>
+
+      
     );
   };
 
