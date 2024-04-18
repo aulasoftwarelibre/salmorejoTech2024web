@@ -49,39 +49,6 @@ const Card: React.FC<{ title: string }> = (props) => {
   );
 };
 
-const TBAmid: React.FC<{}> = () => {
-  return (
-    <>
-      <div
-        className={`col-5 container-fluid d-flex justify-content-center ${styles.card}`}
-
-      >
-        <div className="row ">
-          <div className="col-12 d-flex align-items-center">
-            <div className="row ">
-              <h3 className={`align-items-center ${styles.scheduleTitle}`}>TBA</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
-const TBA: React.FC<{}> = () => {
-  return (
-    <>
-      <div className={`col-10 container-fluid d-flex justify-content-center ${styles.cardEmpty}`}>
-        <div className="row">
-          <div className="col-12 d-flex align-items-center">
-            <h3 className={`${styles.scheduleTitle} ${styles.center}`}>TBA</h3>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
 const DoubleCard: React.FC<{ title: string, author: string, image: string, image2: string, descripcion1: string, descripcion2: string, descripcionCharla: string }> = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
