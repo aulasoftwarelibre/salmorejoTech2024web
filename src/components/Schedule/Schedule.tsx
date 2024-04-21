@@ -102,7 +102,7 @@ const DoubleCard: React.FC<{ title: string, author: string, image: string, image
   );
 };
 
-const SingleCardStall: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
+/* const SingleCardStall: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -150,7 +150,7 @@ const SingleCardStall: React.FC<{ title: string, author: string, image: string, 
       )}
     </>
   );
-};
+}; */
 
 
 const SingleCard: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
