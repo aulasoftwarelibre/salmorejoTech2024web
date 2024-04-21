@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import StallMan from "../../sprites/ponentes/rich.png";
 import IreneMorgado from "../../sprites/ponentes/IreneM.Morgado.png";
 import ConchaAsensio from "../../sprites/ponentes/concha.png";
 import JoseFernandez from "../../sprites/ponentes/jose.png";
@@ -597,7 +596,7 @@ const Schedule: React.FC = () => {
             <h3>19:00</h3>
           </div>
         </div>
-        <SingleCardStall title="EL SOFTWARE LIBRE, LIBERTAD Y COMPROMISO SOCIAL" author="Richard Stallman" image={StallMan} descripcion='Lancé el movimiento software libre y el desarrollo del sistema operativo GNU.' descripcionCharla='El software libre se llama así porque respeta la libertad de los usuarios.  Tienen derecho a mantener el control de la informática que hacen, y sólo el software libre se lo permite.  Los programas privativos imponen a sus usuarios el poder injusto de sus desarrolladores o propietarios.  Hoy en día suelen ser desarrollados para maltratarlos y explotarlos.  ¡Expulsémolos de nuestras vidas!'/>
+        <Card title="TBA"/>
 
       </div>
       <div className="row pt-2" style={{ alignItems: 'stretch' }}>
