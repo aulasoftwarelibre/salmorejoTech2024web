@@ -363,7 +363,7 @@ const Schedule: React.FC = () => {
       <div className="row pt-4">
         <h1 className={styles.schedule}>HORARIO - CHARLAS</h1>
       </div>
-      <div className="row pt-5" style={{ alignItems: 'stretch' }}>
+      {/* <div className="row pt-5" style={{ alignItems: 'stretch' }}>
         <div
           className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
           style={{
@@ -379,7 +379,7 @@ const Schedule: React.FC = () => {
           </div>
         </div>
         <FirstCard title="CHECK-IN" />
-      </div>
+      </div> */}
       <div className="row pt-2" style={{ alignItems: 'stretch' }}>
         <div
           className={`col-1 d-flex min-vw-35 ${styles.scheduleDiv} flex-column container-fluid tamaño flex-column justify-content-between `}
@@ -389,13 +389,13 @@ const Schedule: React.FC = () => {
           }}
         >
           <div className="row">
-            <h3>08:45</h3>
+            <h3>08:30</h3>
           </div>
           <div className="row">
-            <h3>09:10</h3>
+            <h3>09:00</h3>
           </div>
         </div>
-        <FirstCard title="ACTO DE BIENVENIDA" />
+        <FirstCard title="CHECK-IN" />
       </div>
       <div className="row pt-2" style={{ alignItems: 'stretch' }}>
         <div
