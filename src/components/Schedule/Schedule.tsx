@@ -655,7 +655,7 @@ const Schedule: React.FC = () => {
             <h3>12:25</h3>
           </div>
         </div>
-        <BigDoubleCard title="ENTREVISTAS TÉCNICAS. POR QUÉ?" author="Leonardo Poza y Carlos Alonso" image={Leonardo} image2={Carlos} descripcion='Burgalés, Feliz al cuadrado, Padre por duplicado, Afortunado, Dev, Tech Recruiter' descripcionCharla='Las entrevistas técnicas, a menudo similares a oposiciones, no permiten mostrar las verdaderas cualidades de los candidatos, Las empresas buscan habilidades difíciles de medir en el actual modelo, Resolver problemas triviales en una pizarra no revela habilidades prácticas, El proceso actual no beneficia a empresas ni candidatos, requiere un debate y mejora en el ámbito tecnológico,' />
+        <BigDoubleCard title="ENTREVISTAS TÉCNICAS. PUR QUÉ?" author="Leonardo Poza y Carlos Alonso" image={Leonardo} image2={Carlos} descripcion='Burgalés, Feliz al cuadrado, Padre por duplicado, Afortunado, Dev, Tech Recruiter' descripcionCharla='Las entrevistas técnicas, a menudo similares a oposiciones, no permiten mostrar las verdaderas cualidades de los candidatos, Las empresas buscan habilidades difíciles de medir en el actual modelo, Resolver problemas triviales en una pizarra no revela habilidades prácticas, El proceso actual no beneficia a empresas ni candidatos, requiere un debate y mejora en el ámbito tecnológico,' />
       </div>
       <div className="row pt-2" style={{ alignItems: 'stretch' }}>
         <div
