@@ -20,6 +20,25 @@ import Belen from "../../sprites/ponentes/belen.png";
 
 import styles from './Schedule.module.css';
 
+const TBA: React.FC<{}> = () => {
+  return (
+    <>
+      <div
+        className={`col-5 container-fluid d-flex justify-content-center ${styles.card}`}
+       
+      >
+        <div className="row ">
+          <div className="col-12 d-flex align-items-center">
+            <div className="row ">
+              <h3 className={`align-items-center ${styles.scheduleTitle}`}>TBA</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 const FirstCard: React.FC<{ title: string }> = (props) => {
   return (
     <>
@@ -102,7 +121,7 @@ const DoubleCard: React.FC<{ title: string, author: string, image: string, image
   );
 };
 
-/* const SingleCardStall: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
+const SingleCardJose: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -150,7 +169,7 @@ const DoubleCard: React.FC<{ title: string, author: string, image: string, image
       )}
     </>
   );
-}; */
+};
 
 
 const SingleCard: React.FC<{ title: string, author: string, image: string, descripcion: string, descripcionCharla: string }> = (props) => {
@@ -448,7 +467,9 @@ const Schedule: React.FC = () => {
             <h3>11:40</h3>
           </div>
         </div>
-        <ScheduleCard title="SHIP. VALIDATE. ITERATE AND REPEAT" author="José Fernández" image={JoseFernandez} descripcion='Software Developer @Qualifyze Del @ASL pa toda la vida ❤️‍🔥' descripcionCharla='En esta charla cuento una experiencia personal en la que se ha montado un producto desde 0 a toda velocidad, todo ello siguiendo una filosofía de buenas prácticas' />
+
+        <TBA/>
+
         <ScheduleCard title="NO TODO EL CAMPO ES 'GREEN'. CÓMO LIDIAR CON LEGACY CODE" author="Concha Asensio" image={ConchaAsensio} descripcion='Desarrolladora de software | Women Techmaker Ambassador | Mentora en Step4ward' descripcionCharla='Mi objetivo es compartir algunos recursos que he ido aprendiendo trabajando en proyectos de este tipo, enfocados por un lado, a seguir añadiendo nuevas funcionalidades a nuestro código sin incrementar la complejidad, y por otro, al refactoring, que nos permite conseguir tener un código más sostenible en el tiempo.' />
       </div>
       <div className="row pt-2" style={{ alignItems: 'stretch' }}>
@@ -593,10 +614,10 @@ const Schedule: React.FC = () => {
             <h3>17:30</h3>
           </div>
           <div className="row pt-4">
-            <h3>19:00</h3>
+            <h3>18:45</h3>
           </div>
         </div>
-        <Card title="TBA"/>
+        <SingleCardJose title="SHIP. VALIDATE. ITERATE AND REPEAT" author="José Fernández" image={JoseFernandez} descripcion='Software Developer @Qualifyze Del @ASL pa toda la vida ❤️‍🔥' descripcionCharla='En esta charla cuento una experiencia personal en la que se ha montado un producto desde 0 a toda velocidad, todo ello siguiendo una filosofía de buenas prácticas'/>
 
       </div>
       <div className="row pt-2" style={{ alignItems: 'stretch' }}>
