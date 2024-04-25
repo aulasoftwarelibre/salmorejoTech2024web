@@ -100,5 +100,11 @@
     "type": "CHERRY",
     "imageUrl": "/sponsors/jetbrains.png",
     "href": "https://www.jetbrains.com/"
+  },
+  {
+    "name": "ManFred",
+    "type": "CHERRY",
+    "imageUrl": "/sponsors/manfred.png",
+    "href": "https://www.getmanfred.com/"
   }
 ]
