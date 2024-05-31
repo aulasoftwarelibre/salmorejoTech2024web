@@ -60,6 +60,12 @@
     "href": "http://www.uco.es/"
   },
   {
+    "name": "Ayuntamiento de Cordoba",
+    "type": "PERA",
+    "imageUrl": "/sponsors/ayto_cordoba.png",
+    "href": "http://www.uco.es/"
+  },
+  {
     "name": "Freepik",
     "type": "CHERRY",
     "imageUrl": "/sponsors/freepik.jpg",
@@ -96,15 +102,33 @@
     "href": "https://www.atmira.com/"
   },
   {
-    "name": "JetBrains",
-    "type": "CHERRY",
-    "imageUrl": "/sponsors/jetbrains.png",
-    "href": "https://www.jetbrains.com/"
-  },
-  {
     "name": "ManFred",
-    "type": "CHERRY",
+    "type": "PERA",
     "imageUrl": "/sponsors/manfred.png",
     "href": "https://www.getmanfred.com/"
+  },
+  {
+    "name": "LeanMind",
+    "type": "PERA",
+    "imageUrl": "/sponsors/leanmind.svg",
+    "href": "https://leanmind.es/"
+  },
+  {
+    "name": "Coca-Cola",
+    "type": "CHERRY",
+    "imageUrl": "/sponsors/coca-cola.png",
+    "href": "https://www.cocacolaep.com/es/"
+  },
+  {
+    "name": "Mercado Victoria",
+    "type": "CHERRY",
+    "imageUrl": "/sponsors/mv.png",
+    "href": "https://www.mercadovictoria.com/"
+  },
+  {
+    "name": "Aprodeweb",
+    "type": "CHERRY",
+    "imageUrl": "/sponsors/aprodeweb.svg",
+    "href": "https://github.com/aprodeweb"
   }
 ]
