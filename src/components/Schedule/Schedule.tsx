@@ -21,24 +21,24 @@ import Javi from "../../sprites/ponentes/javivelasco.png";
 
 import styles from './Schedule.module.css';
 
-const TBA: React.FC<{}> = () => {
-  return (
-    <>
-      <div
-        className={`col-5 container-fluid d-flex justify-content-center ${styles.card}`}
+// const TBA: React.FC<{}> = () => {
+//   return (
+//     <>
+//       <div
+//         className={`col-5 container-fluid d-flex justify-content-center ${styles.card}`}
        
-      >
-        <div className="row ">
-          <div className="col-12 d-flex align-items-center">
-            <div className="row ">
-              <h3 className={`align-items-center ${styles.scheduleTitle}`}>TBA</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+//       >
+//         <div className="row ">
+//           <div className="col-12 d-flex align-items-center">
+//             <div className="row ">
+//               <h3 className={`align-items-center ${styles.scheduleTitle}`}>TBA</h3>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
 const FirstCard: React.FC<{ title: string }> = (props) => {
   return (
