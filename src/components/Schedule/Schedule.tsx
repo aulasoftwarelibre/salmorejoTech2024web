@@ -17,6 +17,7 @@ import Jorge from "../../sprites/ponentes/jorge.png";
 import Guiomar from "../../sprites/ponentes/guiomar.png";
 import IvanValero from "../../sprites/ponentes/ivanva.png";
 import Belen from "../../sprites/ponentes/belen.png";
+import Javi from "../../sprites/ponentes/javivelasco.png";
 
 import styles from './Schedule.module.css';
 
@@ -380,7 +381,7 @@ const Schedule: React.FC = () => {
   return (
     <div className='container'>
       <div className="row pt-4">
-        <h1 className={styles.schedule}>HORARIO - CHARLAS</h1>
+        <h1 className={styles.schedule}>CHARLAS</h1>
       </div>
       {/* <div className="row pt-5" style={{ alignItems: 'stretch' }}>
         <div
@@ -468,7 +469,7 @@ const Schedule: React.FC = () => {
           </div>
         </div>
 
-        <TBA/>
+        <ScheduleCard title="DOCTOR, MI COMPONENTE DE REACT TIENE SQL" author="Javi Velasco" image={Javi} descripcion='Tech Lead de Vercel' descripcionCharla='Vengo a hablar de React, server components, streaming, suspense y server actions, contando un poco de dónde venimos.' />
 
         <ScheduleCard title="NO TODO EL CAMPO ES 'GREEN'. CÓMO LIDIAR CON LEGACY CODE" author="Concha Asensio" image={ConchaAsensio} descripcion='Desarrolladora de software | Women Techmaker Ambassador | Mentora en Step4ward' descripcionCharla='Mi objetivo es compartir algunos recursos que he ido aprendiendo trabajando en proyectos de este tipo, enfocados por un lado, a seguir añadiendo nuevas funcionalidades a nuestro código sin incrementar la complejidad, y por otro, al refactoring, que nos permite conseguir tener un código más sostenible en el tiempo.' />
       </div>
